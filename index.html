@@ -60,14 +60,19 @@
 			methods: {
 				updatePage(href) {
 					let page = href.split("=")[1];
-					this.currentPage = pages.includes(page) ? page : this.currentPage;
-					history.pushState({page: this.currentPage}, null, href);
+					let change = pages.includes(page) && (this.currentPage != page);
+
+					if (change) {
+						this.currentPage = page;
+						history.pushState({page: this.currentPage}, null, href);
+					}
 					document.getElementById("main").scrollTo({ top: 0, behavior: 'smooth' })
 				}
 			}, 
 			created() {
 				window.onpopstate = (event) => {
 					this.currentPage = pages.includes(event.state.page) ? event.state.page : this.currentPage;
+					document.getElementById("main").scrollTo({ top: 0, behavior: 'smooth' })
 				};
 			}
 		});
