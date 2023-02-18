@@ -14,8 +14,8 @@ export default {
         ],
       HonStaff: [
         { name: 'Eunice Ho', img: 'member-1.webp', position: 'Honorary Clinical Consultant', description: ''},
-        { name: 'Cathy Kwok', img: 'member-2.webp', position: 'Honorary Clinical Consultant', description: ''},
-        { name: 'Alissa Ng', img: 'member-3.webp', position: 'Honorary Clinical Consultant', description: ''} 
+        { name: 'Cathy Kwok', img: 'kwok-cathy.webp', position: 'Honorary Clinical Consultant', description: 'She is a clinical psychologist working in a residential care setting serving children and families with adverse childhood experiences. She is interested in understanding the developmental trajectory of trauma spectrum disorders, as well as the application and consolidation of a therapeutic approach for children that targets the dysfunctional self and other representations.'},
+        { name: 'Alissa Ng', img: 'member-3.webp', position: 'Honorary Clinical Consultant', description: 'During previous research studies, she explored the role of visuospatial perspective shifting in empathy and self-empathy. She is now a clinical psychologist working with at-risk adolescents in a community setting. There she continues her interest in exploring the processes and impact of how people relate with themselves and those around them.'} 
         ], 
       RPg: [
         { name: 'Yimei Zhang', img: 'zhang-yimei.webp', position: 'Ph.D. in Psychology (Post-candidacy)', description: 'She is interested in how people with mental illness, such as borderline personality disorder, build up intimate relationships, and how they communicate with their intimate partners. She hopes her research can help people with mental illness develop healthy relationships in which they can perceive support and acquire improvement.'}, 
@@ -29,11 +29,11 @@ export default {
         { name: 'Celia Ho', img: 'member-7.webp', position: 'M.S.Sc. in Clinical Psychology', description: '' }, 
         { name: 'Florence Huang', img: 'member-1.webp', position: 'M.S.Sc. in Clinical Psychology', description: 'She is interested in experimental studies especially in areas of culturally sensitive code-switching response to sociolinguistic differences, and application of gamification in mental health and education. Also, she is a fan of creative board games. Currently, she is studying how the emotion mind-reading ability between parents and children may associate with their emotional states and parent-child relationships. ' }, 
         { name: 'Rachel Chong', img: 'chong-rachel.webp', position: 'M.S.Sc. in Clinical Psychology', description: '' }, 
-        { name: 'Raymond Ho', img: 'ho-raymond.webp', position: 'M.S.Sc. in Clinical Psychology', description: '' }, 
+        { name: 'Raymond Ho', img: 'ho-raymond.webp', position: 'M.S.Sc. in Clinical Psychology', description: 'He is interested in understanding human in computational approaches. During his undergraduate study, he studied the relationship between self-referential source memory and emotional empathy. He is now studying the cognitive underpinnings in the development of emotional recognition. He likes statistics, science, and karaoke. ' }, 
         { name: 'Terry Lau', img: 'lau-terry.webp', position: 'M.S.Sc. in Clinical Psychology', description: '' }, 
         { name: 'Kristin Ng', img: 'ng-kristin.webp', position: 'M.S.Sc. in Clinical Psychology', description: '' }, 
         { name: 'Tracy Tso', img: 'tso-tracy.webp', position: 'M.S.Sc. in Clinical Psychology', description: '' },
-        { name: 'Charmaine Tsoi', img: 'tsoi-charmaine.webp', position: 'M.S.Sc. in Clinical Psychology', description: '' }
+        { name: 'Charmaine Tsoi', img: 'tsoi-charmaine.webp', position: 'M.S.Sc. in Clinical Psychology', description: 'She obtained her Bachelor’s degree in CUHK. Her previous research studied the relationship between attachment styles and how one relates to the self. She enjoys working with children. She also loves eating, crocheting, and watching drama.' }
 
         ],
       MA: [
@@ -47,9 +47,9 @@ export default {
         { name: 'Elaine To', img: 'member-2.webp', position: 'M.A. in Psychology' }
         ],
       UG: [
-        { name: 'Hazel Lee', img: 'member-3.webp', position: 'B.S.Sc. in Psychology', description: '' }, 
-        { name: 'Isla Wong', img: 'member-4.webp', position: 'B.S.Sc. in Psychology', description: '' }, 
-        { name: 'Peanut Wong', img: 'member-5.webp', position: 'B.S.Sc. in Psychology', description: '' }
+        { name: 'Hazel Lee', img: 'lee-hazel.webp', position: 'B.S.Sc. in Psychology', description: 'Hazel is currently a psychology UG student. She is interested in studying the relationship between attachment styles and the expression of aggression. She likes cats.' }, 
+        { name: 'Isla Wong', img: 'wong-isla.webp', position: 'B.S.Sc. in Psychology', description: 'She is interested in how unhealthy parenting practices are perpetuated inter-generationally, and their effect on adolescents’ mental health. Her undergraduate thesis place emphasis on how maltreatment contributes to teenagers’ borderline personality traits.' }, 
+        { name: 'Peanut Wong', img: 'member-5.webp', position: 'B.S.Sc. in Psychology', description: 'She is curious about how people subjectively understand their own minds is related to their understanding of others’ mental states. Her undergraduate thesis aims to explore the dynamics between emotional ascription and perspective-taking.' }
         ], 
       Alumni: [{ 
         degree: 'M.Phil. in Psychology',
@@ -187,11 +187,14 @@ export default {
             </div>
 
             <div class="title-box">Taught Postgraduates</div>
-            <div class="people-grid">
-              <div class="people-grid-item" v-for="person in MA">
+            <div class="people-card flex-box" v-for="person in MA">
+              <div class="flex-250">
+                <img :src="imgpath + person.img" class="members-img" width="210" height="210" loading="lazy">
+              </div>
+              <div class="flex-60">
                 <span class="name">{{person.name}}</span>
                 <span class="position">{{person.position}}</span>
-                <img :src="imgpath + person.img" class="members-img" width="210" height="210" loading="lazy">
+                <p>{{person.description}}</p>
               </div>
             </div>
 
