@@ -5,8 +5,8 @@ export default {
 	components: {
 		Splide, SplideSlide
 	},
-	props: {
-		labname: String
+	created () {
+		document.title = 'Home | Experimental Psychopathology and Psychotherapy Laboratory | CUHK'
 	},
 	data() {
 		return {

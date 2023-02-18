@@ -1,6 +1,6 @@
 export default {
-	props: {
-		labname: String
+	created () {
+		document.title = 'Distorted Self-Referential Memory | Experimental Psychopathology and Psychotherapy Laboratory | CUHK'
 	},
 	data() {
 		return {

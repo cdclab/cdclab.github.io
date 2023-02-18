@@ -1,6 +1,6 @@
 export default {
-	props: {
-		labname: String
+	created () {
+		document.title = 'Our Services | Experimental Psychopathology and Psychotherapy Laboratory | CUHK'
 	},
 	data() {
 		return {
