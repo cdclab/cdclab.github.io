@@ -61,6 +61,11 @@ ul {
 	padding-left: 10px;
 }
 
+a {
+	text-decoration: none;
+	color: var(--color-link-text);
+}
+
 ::selection {
     color: #FFFFFF;
     background: var(--color-select-text);
@@ -366,7 +371,6 @@ nav div#logo div#labname {
 		display: block;
 		overflow: hidden;
 		padding: 10px;
-		text-decoration: none;
 		text-align: center;
 		color: #FFF;
 	}
@@ -762,7 +766,6 @@ section#gallery figure:hover .overlay {
 		display: block;
 		overflow: hidden;
 		padding: 10px;
-		text-decoration: none;
 		position: relative;
 		color: var(--color-navbar-text);
 	}
