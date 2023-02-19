@@ -24,11 +24,11 @@ export default {
         ], 
       CP: [
         { name: 'Bianca Chan', img: 'chan-bianca.webp', position: 'Psy.D. in Clinical Psychology', description: 'She is a clinical psychologist working in the child & adolescent team of a psychiatric hospital. She is interested in working with adolescents with attachment difficulties, especially those with evolving borderline personality traits. She is currently studying the role of dissociation in adolescent mental health disorders. She is also a plant lover.' }, 
-        { name: 'Daniel Chan', img: 'member-5.webp', position: 'Psy.D. in Clinical Psychology', description: '' }, 
-        { name: 'Jessica Chan', img: 'member-6.webp', position: 'M.S.Sc. in Clinical Psychology', description: '' }, 
+        { name: 'Daniel Chan', img: 'chan-daniel.webp', position: 'Psy.D. in Clinical Psychology', description: 'Working in the public sector, he provides psychological service for individuals and families in need. His research is aimed at enhancing the understanding of how adverse childhood experiences impact mental health in adulthood, with a focus on childhood trauma and self-regulation. In his free time, he enjoys all sorts of outdoor activities.' }, 
+        { name: 'Jessica Chan', img: 'chan-jessica.webp', position: 'M.S.Sc. in Clinical Psychology', description: 'She is interested in the concept of metalization and the impact of interpersonal functioning in both clinical and non-clinical population. Currently, she is researching on how attachment styles would affect perceived responsiveness within intimate relationships.' }, 
         { name: 'Celia Ho', img: 'member-7.webp', position: 'M.S.Sc. in Clinical Psychology', description: '' }, 
         { name: 'Florence Huang', img: 'member-1.webp', position: 'M.S.Sc. in Clinical Psychology', description: 'She is interested in experimental studies especially in areas of culturally sensitive code-switching response to sociolinguistic differences, and application of gamification in mental health and education. Also, she is a fan of creative board games. Currently, she is studying how the emotion mind-reading ability between parents and children may associate with their emotional states and parent-child relationships. ' }, 
-        { name: 'Rachel Chong', img: 'chong-rachel.webp', position: 'M.S.Sc. in Clinical Psychology', description: '' }, 
+        { name: 'Rachel Chong', img: 'chong-rachel.webp', position: 'M.S.Sc. in Clinical Psychology', description: 'Senior learner, research newbie. She loves stories of human experiences, which transformed into her research interest. She looks into children’s stories for more understanding of the development of ‘self’, especially their socioemotional development, and how childhood trauma affects one’s relational knowledge. Good food and cat cuddles made her day.' }, 
         { name: 'Raymond Ho', img: 'ho-raymond.webp', position: 'M.S.Sc. in Clinical Psychology', description: 'He is interested in understanding human in computational approaches. During his undergraduate study, he studied the relationship between self-referential source memory and emotional empathy. He is now studying the cognitive underpinnings in the development of emotional recognition. He likes statistics, science, and karaoke. ' }, 
         { name: 'Terry Lau', img: 'lau-terry.webp', position: 'M.S.Sc. in Clinical Psychology', description: '' }, 
         { name: 'Kristin Ng', img: 'ng-kristin.webp', position: 'M.S.Sc. in Clinical Psychology', description: '' }, 
@@ -37,14 +37,14 @@ export default {
 
         ],
       MA: [
-        { name: 'Emily Chan', img: 'member-2.webp', position: 'M.A. in Psychology' }, 
-        { name: 'Karly Chuang', img: 'member-3.webp', position: 'M.A. in Psychology' }, 
-        { name: 'Christine Chow', img: 'member-4.webp', position: 'M.A. in Psychology' }, 
-        { name: 'Emily Chung', img: 'member-5.webp', position: 'M.A. in Psychology' }, 
-        { name: 'Emma Lau', img: 'member-6.webp', position: 'M.A. in Psychology' }, 
-        { name: 'Vickie Lee', img: 'member-7.webp', position: 'M.A. in Psychology' }, 
-        { name: 'Wayne Lee', img: 'member-1.webp', position: 'M.A. in Psychology' }, 
-        { name: 'Elaine To', img: 'member-2.webp', position: 'M.A. in Psychology' }
+        { name: 'Emily Chan', img: 'member-2.webp', position: 'M.A. in Psychology', description: '' }, 
+        { name: 'Karly Chuang', img: 'member-3.webp', position: 'M.A. in Psychology', description: '' }, 
+        { name: 'Christine Chow', img: 'member-4.webp', position: 'M.A. in Psychology', description: '' }, 
+        { name: 'Emily Chung', img: 'member-5.webp', position: 'M.A. in Psychology', description: '' }, 
+        { name: 'Emma Lau', img: 'member-6.webp', position: 'M.A. in Psychology', description: '' }, 
+        { name: 'Vickie Lee', img: 'member-7.webp', position: 'M.A. in Psychology', description: '' }, 
+        { name: 'Wayne Lee', img: 'member-1.webp', position: 'M.A. in Psychology', description: '' }, 
+        { name: 'Elaine To', img: 'member-2.webp', position: 'M.A. in Psychology', description: '' }
         ],
       UG: [
         { name: 'Hazel Lee', img: 'lee-hazel.webp', position: 'B.S.Sc. in Psychology', description: 'Hazel is currently a psychology UG student. She is interested in studying the relationship between attachment styles and the expression of aggression. She likes cats.' }, 
