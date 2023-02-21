@@ -39,12 +39,12 @@ export default {
 						<div class="flex-60">
 							<splide :options="{ type: 'fade', rewind: true, speed: 2000, arrows: false, drag: false, autoplay: true, interval: 4000, pauseOnHover: false, pauseOnFocus: false, lazyLoad: 'sequential' }" aria-label="Services">
 								<splide-slide><img src="./img/lab-photo-2022-06.jpg" width="1920" alt=""></splide-slide>
-								<splide-slide><img data-splide-lazy="./img/lab-photo-2018-12.jpg" width="1920" alt=""></splide-slide>
-								<splide-slide><img data-splide-lazy="./img/lab-photo-2017-12.jpg" width="1920" alt=""></splide-slide>
-								<splide-slide><img data-splide-lazy="./img/lab-photo-2017-09.jpg" width="1920" alt=""></splide-slide>
-								<splide-slide><img data-splide-lazy="./img/lab-photo-2016-12.jpg" width="1920" alt=""></splide-slide>
-								<splide-slide><img data-splide-lazy="./img/lab-photo-2016-10.jpg" width="1920" alt=""></splide-slide>
-								<splide-slide><img data-splide-lazy="./img/lab-photo-2015-05.jpg" width="1920" alt=""></splide-slide>
+								<splide-slide><img data-splide-lazy="./img/home/lab-photo-2018-12.jpg" width="1920" alt=""></splide-slide>
+								<splide-slide><img data-splide-lazy="./img/home/lab-photo-2017-12.jpg" width="1920" alt=""></splide-slide>
+								<splide-slide><img data-splide-lazy="./img/home/lab-photo-2017-09.jpg" width="1920" alt=""></splide-slide>
+								<splide-slide><img data-splide-lazy="./img/home/lab-photo-2016-12.jpg" width="1920" alt=""></splide-slide>
+								<splide-slide><img data-splide-lazy="./img/home/lab-photo-2016-10.jpg" width="1920" alt=""></splide-slide>
+								<splide-slide><img data-splide-lazy="./img/home/lab-photo-2015-05.jpg" width="1920" alt=""></splide-slide>
 							</splide>
 						</div>
 					</section>
@@ -57,11 +57,12 @@ export default {
 						</div>
 						<div class="flex-60">
 							<splide :options="{ type: 'fade', rewind: true, speed: 2000, arrows: false, drag: false, autoplay: true, interval: 4000, pauseOnHover: false, pauseOnFocus: false, lazyLoad: 'sequential' }" aria-label="Services">
-								<splide-slide><img data-splide-lazy="./img/service-photo-2022-12-1.jpg" width="1920" alt=""></splide-slide>
-								<splide-slide><img data-splide-lazy="./img/service-photo-2022-12-2.jpg" width="1920" alt=""></splide-slide>
-								<splide-slide><img data-splide-lazy="./img/service-photo-2022-12-3.jpg" width="1920" alt=""></splide-slide>
-								<splide-slide><img data-splide-lazy="./img/service-photo-unknown-1.jpg" width="1920" alt=""></splide-slide>
-								<splide-slide><img data-splide-lazy="./img/service-photo-2019-05.jpg" width="1920" alt=""></splide-slide>
+								<splide-slide><img data-splide-lazy="./img/home/service-photo-2022-12-1.jpg" width="1920" alt=""></splide-slide>
+								<splide-slide><img data-splide-lazy="./img/home/service-photo-2022-12-2.jpg" width="1920" alt=""></splide-slide>
+								<splide-slide><img data-splide-lazy="./img/home/service-photo-2022-12-3.jpg" width="1920" alt=""></splide-slide>
+								<splide-slide><img data-splide-lazy="./img/home/service-photo-2022-06.jpg" width="1920" alt=""></splide-slide>
+								<splide-slide><img data-splide-lazy="./img/home/service-photo-2020-11.jpg" width="1920" alt=""></splide-slide>
+								<splide-slide><img data-splide-lazy="./img/home/service-photo-2019-05.jpg" width="1920" alt=""></splide-slide>
 							</splide>
 						</div>
 					</section>
