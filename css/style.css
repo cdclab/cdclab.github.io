@@ -50,6 +50,7 @@ button, input, select {
 img, picture, video, canvas, svg {
   display: block;
   max-width: 100%;
+  height: auto;
 }
 
 p, h1, h2, h3, h4, h5, h6 {
@@ -682,6 +683,15 @@ section#gallery figure:hover .overlay {
 .joinus-recruit:hover {
 	border-color: var(--color-link-text-hover);
 	color: var(--color-link-text-hover);
+}
+
+.splide-description {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 40%);
+	color: #FFFFFF;
+	padding: 3px 5px;
 }
 
 /* */
