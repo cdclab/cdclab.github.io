@@ -6,14 +6,14 @@ export default {
     return {
       imgpath: './img/members/',
       CD: {
-        description: `Trained in applying experimental approaches to delineating the cognitive mechanisms of psychopathology, his clinical and research interests concern the impact of aversive interpersonal experience and stressful life events on mental health. His current research focuses on exploring the role of dysfunctional self-regulation (e.g., self-esteem, shame, and self-versus-other boundary) in stress-related disorders such as post-traumatic stress disorder, dissociative disorders, and borderline personality disorder.`
+        img: 'chiu.jpg', position: 'Associate Professor, CUHK', description: 'Trained in applying experimental approaches to delineating the cognitive mechanisms of psychopathology, his clinical and research interests concern the impact of aversive interpersonal experience and stressful life events on mental health. His current research focuses on exploring the role of dysfunctional self-regulation (e.g., self-esteem, shame, and self-versus-other boundary) in stress-related disorders such as post-traumatic stress disorder, dissociative disorders, and borderline personality disorder.'
       },
       Staff: [
         { name: 'Frankie Mak', img: 'mak-frankie.webp', position: 'Research Associate', description: 'He obtained his Bachelor’s degree and M.Phil. degree in CUHK. He is interested in the cognitive underpinnings of reflective abilities, and the outcomes of maladaptive relational perceptions. With knowledge in these areas, he wants to develop low-intensity assessment and treatment tools to raise public awareness of socio-emotional issues.', email: 'frankie.cdclab@gmail.com', tel: '3943-3507'}, 
         { name: 'Harris Chung', img: 'chung-harris.webp', position: 'Research Assistant', description: 'Working under the supervision of Prof. Chiu, he has previously completed an undergraduate thesis investigating the relationship among self-esteem, social feedback and heart rate variability. His research focuses on the implication of physiological response in the context of social cognition.', email: 'harris.cdclab@gmail.com', tel: '3943-3507'}
         ],
       HonStaff: [
-        { name: 'Eunice Ho', img: 'member-1.webp', position: 'Honorary Clinical Consultant', description: ''},
+        { name: 'Eunice Ho', img: 'ho-eunice.webp', position: 'Honorary Clinical Consultant', description: 'She is a clinical psychologist who enjoys working with children, adolescents, and their families. She is currently working with a group of children and their caregivers with adverse relational experiences. Her clinical and research interest lies in the development of trauma psychopathology and the contributive role that sociocognitive functioning plays in its formation.'},
         { name: 'Cathy Kwok', img: 'kwok-cathy.webp', position: 'Honorary Clinical Consultant', description: 'She is a clinical psychologist working in a residential care setting serving children and families with adverse childhood experiences. She is interested in understanding the developmental trajectory of trauma spectrum disorders, as well as the application and consolidation of a therapeutic approach for children that targets the dysfunctional self and other representations.'},
         { name: 'Alissa Ng', img: 'member-3.webp', position: 'Honorary Clinical Consultant', description: 'During previous research studies, she explored the role of visuospatial perspective shifting in empathy and self-empathy. She is now a clinical psychologist working with at-risk adolescents in a community setting. There she continues her interest in exploring the processes and impact of how people relate with themselves and those around them.'} 
         ], 
@@ -27,14 +27,13 @@ export default {
         { name: 'Daniel Chan', img: 'chan-daniel.webp', position: 'Psy.D. in Clinical Psychology', description: 'Working in the public sector, he provides psychological service for individuals and families in need. His research is aimed at enhancing the understanding of how adverse childhood experiences impact mental health in adulthood, with a focus on childhood trauma and self-regulation. In his free time, he enjoys all sorts of outdoor activities.' }, 
         { name: 'Jessica Chan', img: 'chan-jessica.webp', position: 'M.S.Sc. in Clinical Psychology', description: 'She is interested in the concept of metalization and the impact of interpersonal functioning in both clinical and non-clinical population. Currently, she is researching on how attachment styles would affect perceived responsiveness within intimate relationships.' }, 
         { name: 'Celia Ho', img: 'member-7.webp', position: 'M.S.Sc. in Clinical Psychology', description: '' }, 
-        { name: 'Florence Huang', img: 'member-1.webp', position: 'M.S.Sc. in Clinical Psychology', description: 'She is interested in experimental studies especially in areas of culturally sensitive code-switching response to sociolinguistic differences, and application of gamification in mental health and education. Also, she is a fan of creative board games. Currently, she is studying how the emotion mind-reading ability between parents and children may associate with their emotional states and parent-child relationships. ' }, 
+        { name: 'Florence Huang', img: 'member-1.webp', position: 'M.S.Sc. in Clinical Psychology', description: 'She is interested in experimental studies especially in areas of culturally sensitive code-switching response to sociolinguistic differences, and application of gamification in mental health and education. Also, she is a fan of creative board games. Currently, she is studying how the emotion mind-reading ability between parents and children may associate with their emotional states and parent-child relationships.' }, 
         { name: 'Rachel Chong', img: 'chong-rachel.webp', position: 'M.S.Sc. in Clinical Psychology', description: 'Senior learner, research newbie. She loves stories of human experiences, which transformed into her research interest. She looks into children’s stories for more understanding of the development of ‘self’, especially their socioemotional development, and how childhood trauma affects one’s relational knowledge. Good food and cat cuddles made her day.' }, 
-        { name: 'Raymond Ho', img: 'ho-raymond.webp', position: 'M.S.Sc. in Clinical Psychology', description: 'He is interested in understanding human in computational approaches. During his undergraduate study, he studied the relationship between self-referential source memory and emotional empathy. He is now studying the cognitive underpinnings in the development of emotional recognition. He likes statistics, science, and karaoke. ' }, 
+        { name: 'Raymond Ho', img: 'ho-raymond.webp', position: 'M.S.Sc. in Clinical Psychology', description: 'He is interested in understanding human in computational approaches. During his undergraduate study, he studied the relationship between self-referential source memory and emotional empathy. He is now studying the cognitive underpinnings in the development of emotional recognition. He likes statistics, science, and karaoke.' }, 
         { name: 'Terry Lau', img: 'lau-terry.webp', position: 'M.S.Sc. in Clinical Psychology', description: '' }, 
         { name: 'Kristin Ng', img: 'ng-kristin.webp', position: 'M.S.Sc. in Clinical Psychology', description: '' }, 
         { name: 'Tracy Tso', img: 'tso-tracy.webp', position: 'M.S.Sc. in Clinical Psychology', description: '' },
         { name: 'Charmaine Tsoi', img: 'tsoi-charmaine.webp', position: 'M.S.Sc. in Clinical Psychology', description: 'She obtained her Bachelor’s degree in CUHK. Her previous research studied the relationship between attachment styles and how one relates to the self. She enjoys working with children. She also loves eating, crocheting, and watching drama.' }
-
         ],
       MA: [
         { name: 'Emily Chan', img: 'member-2.webp', position: 'M.A. in Psychology', description: '' }, 
@@ -112,11 +111,11 @@ export default {
             <div class="title-box">Principal Investigator</div>
             <div class="flex-box">
               <div class="flex-250">
-                <img src="./img/members/chiu.jpg" class="members-img" width="210" height="253">
+                <img :src="imgpath + CD.img" class="members-img" width="210" height="253">
               </div>
               <div class="flex-60">
                 <span class="name">Prof. Chui-De CHIU</span>
-                <span class="position">Associate Professor, CUHK</span>
+                <span class="position">{{CD.position}}</span>
 
                 <p><a href="https://www.researchgate.net/profile/Chui-De-Chiu" target="_blank">ResearchGate</a> | 
                 <a href="https://orcid.org/0000-0002-6159-8531" target="_blank">ORCID</a> | 
