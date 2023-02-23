@@ -36,19 +36,19 @@ export default {
         { name: 'Charmaine Tsoi', img: 'tsoi-charmaine.webp', position: 'M.S.Sc. in Clinical Psychology', description: 'She obtained her Bachelor’s degree in CUHK. Her previous research studied the relationship between attachment styles and how one relates to the self. She enjoys working with children. She also loves eating, crocheting, and watching drama.' }
         ],
       MA: [
-        { name: 'Emily Chan', img: 'member-2.webp', position: 'M.A. in Psychology', description: '' }, 
+        { name: 'Emily Chan', img: 'MA/2022-chan-emily.webp', position: 'M.A. in Psychology', description: 'She is interested in the topic of Emotional Regulation. She would like to know how emotional regulation in daily life affects our well-being. Given that “Emotional Intelligence” (EQ) has been widely prevalent in recent years and numerous research shows that having high EQ is critical for achieving success and healthy interpersonal relations.' }, 
         { name: 'Karly Chuang', img: 'member-3.webp', position: 'M.A. in Psychology', description: '' }, 
         { name: 'Christine Chow', img: 'member-4.webp', position: 'M.A. in Psychology', description: '' }, 
         { name: 'Emily Chung', img: 'member-5.webp', position: 'M.A. in Psychology', description: '' }, 
         { name: 'Emma Lau', img: 'member-6.webp', position: 'M.A. in Psychology', description: '' }, 
         { name: 'Vickie Lee', img: 'member-7.webp', position: 'M.A. in Psychology', description: '' }, 
         { name: 'Wayne Lee', img: 'member-1.webp', position: 'M.A. in Psychology', description: '' }, 
-        { name: 'Elaine To', img: 'member-2.webp', position: 'M.A. in Psychology', description: '' }
+        { name: 'Elaine To', img: 'MA/2022-to-elaine.webp', position: 'M.A. in Psychology', description: '' }
         ],
       UG: [
         { name: 'Hazel Lee', img: 'lee-hazel.webp', position: 'B.S.Sc. in Psychology', description: 'Hazel is currently a psychology UG student. She is interested in studying the relationship between attachment styles and the expression of aggression. She likes cats.' }, 
         { name: 'Isla Wong', img: 'wong-isla.webp', position: 'B.S.Sc. in Psychology', description: 'She is interested in how unhealthy parenting practices are perpetuated inter-generationally, and their effect on adolescents’ mental health. Her undergraduate thesis place emphasis on how maltreatment contributes to teenagers’ borderline personality traits.' }, 
-        { name: 'Peanut Wong', img: 'member-5.webp', position: 'B.S.Sc. in Psychology', description: 'She is curious about how people subjectively understand their own minds is related to their understanding of others’ mental states. Her undergraduate thesis aims to explore the dynamics between emotional ascription and perspective-taking.' }
+        { name: 'Peanut Wong', img: 'wong-peanut.webp', position: 'B.S.Sc. in Psychology', description: 'She is curious about how people subjectively understand their own minds is related to their understanding of others’ mental states. Her undergraduate thesis aims to explore the dynamics between emotional ascription and perspective-taking.' }
         ], 
       Alumni: [{ 
         degree: 'M.Phil. in Psychology',
