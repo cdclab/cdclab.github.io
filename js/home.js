@@ -60,7 +60,7 @@ export default {
 								<splide-slide><img data-splide-lazy="./img/home/service-photo-2022-12-1.jpg" width="636" height="358" alt=""><span class="splide-description">Dec 2022 - BOKSS Workshop</span></splide-slide>
 								<splide-slide><img data-splide-lazy="./img/home/service-photo-2022-12-3.jpg" width="636" height="358" alt=""><span class="splide-description">Dec 2022 - BOKSS Workshop</span></splide-slide>
 								<splide-slide><img data-splide-lazy="./img/home/service-photo-2022-12-2.jpg" width="636" height="358" alt=""><span class="splide-description">Dec 2022 - HKCS Workshop</span></splide-slide>
-								<splide-slide><img data-splide-lazy="./img/home/service-photo-2022-06.jpg" width="636" height="358" alt=""><span class="splide-description">Jun 2022 - NTU Online Lecture</span></splide-slide>
+								<splide-slide><img data-splide-lazy="./img/home/service-photo-2022-06.jpg" width="636" height="358" alt=""><span class="splide-description">Jun 2022 - NTU-CUHK Mix-mode Seminar</span></splide-slide>
 								<splide-slide><img data-splide-lazy="./img/home/service-photo-2020-11.jpg" width="636" height="358" alt=""><span class="splide-description">Nov 2020 - HKCS Workshop</span></splide-slide>
 								<splide-slide><img data-splide-lazy="./img/home/service-photo-2019-05.jpg" width="636" height="358" alt=""><span class="splide-description">May 2019 - SWD Workshop</span></splide-slide>
 							</splide>
