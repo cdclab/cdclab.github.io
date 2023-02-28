@@ -48,18 +48,18 @@ button, input, select {
 }
 
 img, picture, video, canvas, svg {
-  display: block;
-  max-width: 100%;
-  height: auto;
+	display: block;
+	max-width: 100%;
+	height: auto;
 }
 
 p, h1, h2, h3, h4, h5, h6 {
-  overflow-wrap: break-word;
-  margin: 0;
+	overflow-wrap: break-word;
+	margin: 0;
 }
 
 ul {
-	padding-left: 10px;
+	padding-left: 16px;
 }
 
 a {
@@ -68,8 +68,8 @@ a {
 }
 
 ::selection {
-    color: #FFFFFF;
-    background: var(--color-select-text);
+		color: #FFFFFF;
+		background: var(--color-select-text);
 }
 
 /* Customised reset */
@@ -99,7 +99,7 @@ strong {
 u {
 	text-decoration: none;
 	font-weight: 700;
-	color: var(--color-title-2);	
+	color: var(--color-title-2);  
 }
 
 /* Structure */
@@ -290,9 +290,9 @@ p ~ .home-btn {
 	font-family: 'Bebas Neue', sans-serif;
 	font-weight: 700;
 	border: 2px solid var(--color-dark-text);
-  flex-grow: 0;
-  padding: 0px 3px;
-  letter-spacing: .2px;
+	flex-grow: 0;
+	padding: 0px 3px;
+	letter-spacing: .2px;
 }
 
 /* navbar */
@@ -349,18 +349,18 @@ nav div#logo div#labname {
 	}
 
 	nav .cross {
-    content: '';
-    position: absolute;
-    display: block;
-    top: 20px;
-    right: 20px;
-    width: 30px;
-    height: 30px;
-    background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xOSA2LjQxTDE3LjU5IDUgMTIgMTAuNTkgNi40MSA1IDUgNi40MSAxMC41OSAxMiA1IDE3LjU5IDYuNDEgMTkgMTIgMTMuNDEgMTcuNTkgMTkgMTkgMTcuNTkgMTMuNDEgMTJ6Ii8+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+Cjwvc3ZnPg==);
-    background-position: center;
-    background-size: contain;
-    cursor: pointer;
-    opacity: 0.8;
+		content: '';
+		position: absolute;
+		display: block;
+		top: 20px;
+		right: 20px;
+		width: 30px;
+		height: 30px;
+		background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xOSA2LjQxTDE3LjU5IDUgMTIgMTAuNTkgNi40MSA1IDUgNi40MSAxMC41OSAxMiA1IDE3LjU5IDYuNDEgMTkgMTIgMTMuNDEgMTcuNTkgMTkgMTkgMTcuNTkgMTMuNDEgMTJ6Ii8+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+Cjwvc3ZnPg==);
+		background-position: center;
+		background-size: contain;
+		cursor: pointer;
+		opacity: 0.8;
 	}
 
 	nav ul li {
@@ -632,6 +632,11 @@ section#gallery figure:hover .overlay {
 	width: 100%;
 }
 
+.workshop-card {
+	margin-top: 48px;
+	margin-left: 32px;
+}
+
 #project, #joinus-participant, #pub1 {
 	margin-top: -96px;
 }
@@ -694,6 +699,14 @@ section#gallery figure:hover .overlay {
 	padding: 3px 5px;
 }
 
+.splide__list ul {
+	list-style-type: disc;
+}
+
+.splide__list {
+  transition: height .5s;
+}
+
 /* */
 @media only screen and (min-width: 680px) {
 	.wrapper-horizontal {
@@ -711,11 +724,11 @@ section#gallery figure:hover .overlay {
 	}
 
 	nav div#logo div#labname {
-    	width: 300px;
+			width: 300px;
 	}
 
 	nav div#logo img {
-    	height: 75px;
+			height: 75px;
 	}
 
 	.wrapper-horizontal {
@@ -749,8 +762,8 @@ section#gallery figure:hover .overlay {
 	}
 
 	.banner img {
-    max-height: 300px;
-    object-fit: contain;
+		max-height: 300px;
+		object-fit: contain;
 	}
 }
 
@@ -780,21 +793,34 @@ section#gallery figure:hover .overlay {
 		color: var(--color-navbar-text);
 	}
 
-	nav li:not(.dropdown) a::after {
+	nav ul li.emphasis a {
+		border: 2px solid var(--color-link-text);
+		color: var(--color-link-text);
+		transition: border .3s, color .3s;
+		border-radius: 3px;
+		margin-left: 10px; /* hard code for last element only */
+	}
+
+	nav ul li.emphasis a:hover {
+		border: 2px solid var(--color-link-text-hover);
+		color: var(--color-link-text-hover);
+	}
+
+	nav li:not(.dropdown, .emphasis) a::after {
 		content: '';
 		position: absolute;
 		bottom: 0;
 		left: 0;
-		width: 100%;
+		width: calc(100% - 20px);
 		height: 2px;
 		background-color: var(--color-navbar-text);
 		transition: transform 300ms;
 		transform: translate3d(-100%, 0, 0);
 	}
 
-	nav li:not(.dropdown) a:hover::after {
+	nav li:not(.dropdown, .emphasis) a:hover::after {
 		opacity: 1;
-		transform: translate3d(0, 0, 0);
+		transform: translate3d(10px, 0, 0);
 	}
 
 	nav .hamburger {
