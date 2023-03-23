@@ -89,7 +89,7 @@
 			<component :is="currentPage" @click-page="(href) => updatePage(href)"></component>
 		</Transition>
 
-		<footer>
+		<footer v-cloak>
 			<p>{{new Date().getFullYear()}} &copy; {{labname}}</p>
 		</footer>
 	</div>

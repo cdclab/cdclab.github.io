@@ -25,6 +25,10 @@
 	font-display: swap;
 }
 
+[v-cloak] {
+  display: none;
+}
+
 /* Border-box Fix */
 
 html {
