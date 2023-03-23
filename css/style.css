@@ -3,7 +3,7 @@
 	--color-text: #6E6259; /* Warm Gray */
 	--color-title-1: #2D2926; /* Black */
 	--color-title-2: #A62C2B; /* Metallic Red */
-	--color-title-3: #2D2926; /* Black */;
+	--color-title-3: #A62C2B; /* Metallic Red */
 	--color-dark-text: #5F1933; /* Brown Chocolate */
 	--color-dark-text-hover: #A62C2B; /* Metallic Red */
 	--color-hightlight-text: #A62C2B; /* Metallic Red */
@@ -12,7 +12,6 @@
 	--color-select-text: #A62C2B; /* Metallic Red */
 	--color-member-name: #A62C2B; /* Metallic Red */
 	--color-service-title: #A62C2B; /* Metallic Red */
-	--color-publication-title: #A62C2B; /* Metallic Red */
 	--color-banner-main-background: #F08F90; /* Ikkonzome (Pink) */
 	--color-banner-background: #EEEEEE;
 	--color-banner-pale-background: #FFF5EE; /* Seashell */
@@ -93,7 +92,7 @@ h2 {
 }
 
 h3 {
-	font-size: 1rem;
+	font-size: 1.2rem;
 	color: var(--color-title-3);
 }
 
@@ -101,18 +100,8 @@ p {
 	margin: 0 0 0.75em;
 }
 
-/* Style for Word Pasted Content */
-
-strong {
-	font-weight: 700;
-	font-size: 1.2rem;
-	color: var(--color-publication-title);
-}
-
-u {
-	text-decoration: none;
-	font-weight: 700;
-	color: var(--color-title-2);  
+p:last-child {
+	margin: 0;
 }
 
 /* Structure */
@@ -147,17 +136,13 @@ main {
 }
 
 footer {
-	padding: 0 48px;
+	padding: 32px 48px;
 	margin-left: auto;
 	text-align: right;
 }
 
-footer p {
-	margin: 32px 0;
-}
-
 .body-container {
-	margin: 96px 0 0 0;
+	margin: 96px 0 48px 0;
 }
 
 .wrapper-horizontal {

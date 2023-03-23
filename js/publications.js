@@ -17,7 +17,7 @@ export default {
 	    <section class="body-container flex-stack">
 		    <section id="pub1">
 		    	<div class="card wrapper-horizontal">
-				    <p><strong>The relational process of emotion, social perception, and self-image</strong></p>
+				    <h2>The relational process of emotion, social perception, and self-image</h2>
 				    <p><b>Chiu, C.-D.</b>, <b>Siu, C. Y.</b>, <b>Ng, H. C.</b>, &amp; Baldwin, M. W. (2021). Visuospatial perspective shifting and relational self-association in dispositional shame and guilt. <em><b>Consciousness and Cognition</b></em>, <em>92</em>, Article 103140.</p>
 				    <p>Yeh, Y.-Y., Wang, C.-C., Cheng, S.-k., &amp; <b>Chiu, C.-D.</b> (2021). Dissociation of posture remapping and cognitive load in level-2 perspective-taking. <em><b>Cognition</b></em>, <em>214</em>, Article 104733.</p>
 				    <p><b>Chiu, C.-D.</b>, <b>Ng, H. C.</b>, <b>Kwok, W. K.</b>, &amp; Tollenaar, M. (2020). Feeling empathically toward other people and the self: The role of perspective shifting in emotion sharing and self-reassurance. <em><b>Clinical Psychological Science</b>, 8,&nbsp;</em>169&ndash;183.</p>
@@ -29,8 +29,8 @@ export default {
 
 		    <section id="pub2" class="dark">
 		    	<div class="card wrapper-horizontal">
-				    <p><strong>The neurocognitive underpinnings of trauma-spectrum disorders</strong></p>
-				    <p><u>Self- and other-representation (social cognition)</u></p>
+				    <h2>The neurocognitive underpinnings of trauma-spectrum disorders</h2>
+				    <h3>Self- and other-representation (social cognition)</h3>
 				    <p>van Schie, C. C., <b>Chiu, C.-D.</b>, Rombouts, S. A. R. B., Heiser, W. J., &amp; Elzinga, B. M. (2022). Finding a positive me: Affective and neural insights into the challenges of positive autobiographical memory reliving in borderline personality disorder. <em><b>Behaviour Research and Therapy</b></em>, <em>158</em>, Article 104182.</p>
 				    <p>Lynn, S. J., Polizzi, C. P., Merckelbach, H., <b>Chiu, C.-D.</b>, Maxwell, R., van Heugten, D., &amp; Lilienfeld, S. O. (2022). Dissociation and dissociative disorders reconsidered: Beyond sociocognitive and trauma models toward a transtheoretical framework. <em><b>Annual Review of Clinical Psychology</b>, 18</em>, 259&ndash;289.</p>
 				    <p><b>Chiu, C.-D.</b>, <b>Ho, H. L.</b>, &amp; Tollenaar, M. S. (2022). Relational self-evaluations in dissociation: Implicit self-rejection? <em><b>Psychological Trauma: Theory, Research, Practice, and Policy</b>, 14,</em> 99&ndash;106.</p>
@@ -41,7 +41,7 @@ export default {
 				    <p><b>Chiu, C.-D.</b>, Tseng, M.-C., Chien, Y.-L., Liao, S.-C., Liu, C.-M., Yeh, Y.-Y., &amp; Hwu, H.-G. (2016). Misattributing the source of self-generated representations related to dissociative and psychotic symptoms. <em><b>Frontier in Psychology</b>, 7</em>, Article 541.</p>
 				    <p><b>Chiu, C.-D.</b>, Paesen, L., Dziobek, I., &amp; Tollenaar, M. S. (2016). Weakened cognitive empathy in individuals with dissociation proneness. <em><b>Journal of Social and Clinical Psychology</b>, 35</em>, 425&ndash;436.</p>
 				    
-				    <p><u>Executive controls in attention and memory (cognition)</u></p>
+				    <h3>Executive controls in attention and memory (cognition)</h3>
 				    <p><b>Chiu, C.-D.</b> (2018). Enhanced accessibility of ignored neutral and negative items in nonclinical dissociative individuals. <em><b>Consciousness and Cognition</b>, 57</em>, 74&ndash;83.</p>
 				    <p><b>Chiu, C.-D.</b> (2018). Phenomenological characteristics of recovered memory in nonclinical individuals. <em><b>Psychiatry Research</b>, 259</em>, 135&ndash;141.</p>
 				    <p>Krause-Utz, A., Winter, D., Schriner, F., <b>Chiu, C.-D.</b>, Lis, S., Spinhoven, P., Bohus, M., Schmahl, C., &amp; Elzinga, B. M. (2018). Reduced amygdala reactivity and impaired working memory during dissociation in borderline personality disorder. <em><b>European Archives of Psychiatry and Clinical Neuroscience</b>, 268</em>, 401&ndash;415.</p>
@@ -56,14 +56,15 @@ export default {
 
 		    <section id="pub3">
 		    	<div class="card wrapper-horizontal">
-				    <p><strong>Psychological trauma and medicine</strong></p>
-				    <p><u>Psychiatry</u></p>
+				    <h2>Psychological trauma and medicine</h2>
+				    <h3>Psychiatry</h3>
 				    <p><b>Siu, H. C.</b>, Lee, S.-H., Au, J. S., <b>Lo, A. P.-K.</b>, Huang, C.-M., Tsai, Y.-F., Lee, T. M.-C., Lin, C., &amp; <b>Chiu, C.-D.</b> (2022). Loneliness and major depressive disorder in the elderly with a history of suicidal ideation or attempt&mdash;A comment on K&auml;ll et al. &ldquo;Therapist-guided internet-based treatments for loneliness.&quot; <em><b>Psychotherapy and Psychosomatics</b></em>, <em>91</em>(2), 142&ndash;144.</p>
 				    <p>Li, D.-J., Hsieh, Y.-C., <b>Chiu, C.-D.</b>, Lin, C.-H., &amp; Chou, L.-S. (2022). The moderation of maternal parenting on the association of trauma, dissociation, and psychosis in depressive inpatients. <em><b>European Journal of Psychotraumatology</b></em>, <em>13</em>(1), Article 2024974.</p>
 				    <p>Tseng, H.-H., <b>Chiu, C.-D.</b>, Chen, K. C., Lee, I. H., Chen, P. S., &amp; Yang, Y. K. (2021). Absence of negative association of insular and medial frontal gray matter volume with dissociative symptoms in schizophrenia. <em><b>Journal of Psychiatric Research</b>, 138,&nbsp;</em>495&ndash;491.</p>
 				    <p><b>Chiu, C.-D.</b>, Tseng, M.-C., Chien, Y.-L., Liao, S.-C., Liu, C.-M., Yeh, Y.-Y., Hwu, H.-G., &amp; Ross, C. A. (2017). Dissociative disorders in acute psychiatric inpatients in Taiwan. <em><b>Psychiatry Research</b>, 250</em>, 285&ndash;290.</p>
 				    <p><b>Chiu, C.-D.</b>, Tseng, M.-C., Chien, Y.-L., Liao, S.-C., Liu, C.-M., Yeh, Y.-Y., &amp; Hwu, H.-G. (2015). Cumulative traumatization was associated with pathological dissociation in acute psychiatric inpatients in Taiwan. <em><b>Psychiatry Research</b>, 230</em>, 406&ndash;412.</p>
-				    <p><u>Urology and gynecology</u></p>
+
+				    <h3>Urology and gynecology</h3>
 				    <p><b>Chiu, C.-D.</b>, Lee, M.-H., Chen, W.-C., <b>Ho, H. L.</b>, &amp; Wu, H.-C. (2017). Alexithymia and anesthetic bladder capacity in interstitial cystitis/bladder pain syndrome. <em><b>Journal of Psychosomatic Research</b>, 100</em>, 15&ndash;21.</p>
 				    <p><b>Chiu, C.-D.</b>, Lee, M.-H., Chen, W.-C., <b>Ho, H. L.</b>, &amp; Wu, H.-C. (2017). Childhood interpersonal trauma, psychiatric dysfunctions, and urological symptoms in patients with interstitial cystitis/bladder pain syndrome. <em><b>Journal of Psychosomatic Research</b>, 93</em>, 90&ndash;95.</p>
 				</div>
@@ -71,7 +72,7 @@ export default {
 
 		    <section id="pub4" class="dark">
 		    	<div class="card wrapper-horizontal">
-				    <p><strong>Collaboration</strong><em>&nbsp;</em></p>
+				    <h2>Collaboration</h2>
 					<p>So, S. H., Zhu, C., Chau, A. K. C., Sun, X., <b>Chiu, C.-D.</b>, Chan, R. C. K., & Leung, P. W. L. (2022). 18-month trajectories of delusional dimensions in young adults: Relationship with reasoning biases and worry. <em><b>Journal of Psychopathology and Clinical Science</b></em>. Accepted Manuscript.</p>
 					<p>Tump, D., Narayan, N., Verbiest, V., Hermsen, S., Goris, A., <b>Chiu, C.-D.</b>, & Van Stiphout, R. (2022). Stressors and destressors in working from home based on context and physiology from self-reports and smartwatch measurements: International observational study trial. <em><b>JMIR Formative Research</b></em>, <em>6</em>, Article e38562.</p>
 					<p>Chau, A. K. C., So, S. H., Sun, X., Zhu, C., <b>Chiu, C.-D.</b>, Chan, R. C. K., & Leung, P. W. L. (2022). The co-occurrence of multidimensional loneliness with depression, social anxiety and paranoia in non-clinical young adults: A latent profile analysis. <em><b>Frontiers in Psychiatry</b></em>, <em>13</em>, Article 931558.</p>
