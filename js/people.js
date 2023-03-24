@@ -211,7 +211,7 @@ export default {
 
             <div class="title-box">Alumni</div>
             <div class="toggle-section" v-for="degree in Alumni">
-              <h3 class="toggleBtn" @click="toggleTable($event)"><i class="fa fa-chevron-right toggle-icon"></i>{{degree.degree}}</h3>
+              <p class="toggleBtn" @click="toggleTable($event)"><i class="fa fa-chevron-right toggle-icon"></i>{{degree.degree}}</p>
               <div class="toggle-box">
                 <table class="alumni-table">
                   <colgroup>
@@ -235,7 +235,7 @@ export default {
             </div>
 
             <div class="toggle-section">
-              <h3 class="toggleBtn" @click="toggleTable($event)"><i class="fa fa-chevron-right toggle-icon"></i>Other student helpers</h3>
+              <p class="toggleBtn" @click="toggleTable($event)"><i class="fa fa-chevron-right toggle-icon"></i>Other student helpers</p>
               <div class="toggle-box">
                 (Under construction...)
               </div>
