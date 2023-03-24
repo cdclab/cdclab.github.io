@@ -78,12 +78,16 @@ a {
 /* Customised reset */
 
 h2, h3, h4, h5, h6 {
-  margin-top: 1.5em;
-  margin-bottom: .75em;
+  margin-top: 2.5em;
+  margin-bottom: 0.75em;
 }
 
 h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6:first-child {
   margin-top: 0;
+}
+
+h2 + h3 {
+	margin-top: 2em;
 }
 
 h2 {
@@ -92,7 +96,7 @@ h2 {
 }
 
 h3 {
-	font-size: 1.2rem;
+	font-size: 1.25rem;
 	color: var(--color-title-3);
 }
 
@@ -510,7 +514,7 @@ section#chiu .name, section#members .name {
 section#chiu .position, section#members .position {
 	display: block;
 	margin-bottom: 0.5rem;
-	color: var(--color-title-3);
+	color: var(--color-title-1);
 	font-size: 1rem;
 	font-weight: 700;
 }
