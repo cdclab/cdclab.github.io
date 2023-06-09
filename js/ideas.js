@@ -27,12 +27,12 @@ export default {
 		    	<div style="overflow: auto"><img src="./img/framework.webp" width="1920" style="margin: 3rem 0; min-width: 484px"></div>
 		    	<p class="margin-bottom-40">We strive to inform clinical case formulation with knowledge about the pathways underlying their dysfunctions. Driven by such value, we not only do studies in the laboratory, but also cooperate with service-providers in the healthcare setting in the hope of improving the existing practice for the clinical populations.</p>
 
-		    	<div class="margin-bottom-40">
+		    	<!-- <div class="margin-bottom-40">
 			    	<h3>Research Highlights</h3>
 			    	<p class="toggleBtn highlight" @click.prevent="$emit('clickPage', './?page=project-1')"><i class="fa fa-chevron-right toggle-icon"></i>Flexible Perspective Shifting in Empathy and Self-Empathy</p>
 			    	<p class="toggleBtn highlight" @click.prevent="$emit('clickPage', './?page=project-2')"><i class="fa fa-chevron-right toggle-icon"></i>Distorted Self-Referential Memory in Trauma-Related Disorders</p>
 			    	<p class="toggleBtn highlight" @click.prevent="$emit('clickPage', './?page=project-3')"><i class="fa fa-chevron-right toggle-icon"></i>Biased Self-Evaluation in Trauma-Related Disorders</p>
-		    	</div>
+		    	</div> -->
 		    </article>
 	    </section>
     </main>`
