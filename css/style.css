@@ -108,6 +108,10 @@ p:last-child {
 	margin: 0;
 }
 
+article p {
+	margin-bottom: 1.125em;
+}
+
 /* Structure */
 
 body {
@@ -115,6 +119,10 @@ body {
 	font-family: 'Poppins', sans-serif;
 	color: var(--color-text);
 	-webkit-font-smoothing: antialiased;
+}
+
+.chinese-font {
+	font-family: 'Noto Sans TC', sans-serif;
 }
 
 #main {
@@ -218,6 +226,28 @@ footer {
 	margin-bottom: 16px;
 }
 
+p.title-section{
+	color: var(--color-title-2);
+	margin-bottom: 32px;
+}
+
+p.title-large {
+	max-width: 672px;
+	font-weight: 700;
+	font-family: 'Poppins', sans-serif;
+	/*color: var(--color-title-2);*/
+	letter-spacing: -.04rem;
+	font-size: 3.5rem;
+	line-height: 1;
+	margin-bottom: 0.75em; /* Fix for article p margin */
+}
+
+p.title-small {
+	max-width: 960px;
+	font-size: 1.25rem;
+	line-height: 1.5;
+}
+
 .banner img {
 	/*position: absolute;
 	top: 50%;
@@ -265,9 +295,21 @@ p ~ .home-btn {
 	margin-top: 16px;
 }
 
-.home-btn:hover, .idea-btn:hover {
+.home-btn:hover, .idea-btn:hover, .assess-btn:hover {
 	border: 2px solid var(--color-dark-text-hover);
 	color: var(--color-dark-text-hover);
+}
+
+.assess-btn {
+	display: inline-block;
+	padding: 10px;
+	border: 2px solid var(--color-dark-text);
+	width: 180px;
+	height: 140px;
+	color: var(--color-dark-text);
+	text-align: center;
+	border-radius: 6px;
+	transition: border .3s, color .3s;
 }
 
 .idea-btn {
@@ -296,6 +338,22 @@ p ~ .home-btn {
 	padding: 0px 3px;
 	letter-spacing: .2px;
 }
+
+.additional-info {
+	margin-top: 64px;
+	border: 2px solid var(--color-hightlight-text);
+	border-radius: 6px;
+	padding: 12px;
+}
+
+.additional-info .additional-title {
+	font-weight: 700;
+	color: var(--color-hightlight-text);
+}
+
+/*.additional-info > p {
+	margin-bottom: 0.2em;
+} */
 
 /* navbar */
 nav {
@@ -651,6 +709,10 @@ section#gallery figure:hover .overlay {
 	max-width: 200px;
 }
 
+.gap-0 {
+	gap: 0px;
+}
+
 .gap-20 {
 	gap: 20px;
 }
@@ -710,6 +772,50 @@ section#gallery figure:hover .overlay {
 
 .splide__list {
   transition: height .5s;
+}
+
+/* Splide customisation */
+.is-active {
+	opacity: 100%;
+}
+
+.is-prev, .is-next {
+	opacity: 20%;
+}
+
+.splide__slide {
+	transition: opacity 0.5s ease-in-out;
+}
+
+/* Survey Style */
+.sv-radio {
+  display: none;
+}
+
+.sv-label {
+	display: block;
+  position: relative;
+  padding: 16px;
+	border-radius: 8px;
+  cursor: pointer;
+  user-select: none;
+  background-color: rgba(0,0,0,.06);
+	transition: all 0.3s ease;
+	font-size: 120%;
+	margin-top: 12px;
+} 
+
+.sv-radio:checked:checked + .sv-label.yellow {
+  background-color: #FCD200;
+} 
+
+.sv-radio:checked:checked + .sv-label.pink {
+  background-color: #FFB3C1;
+} 
+
+.splide .splide__arrows--ttb .splide__arrow {
+	left: 50%;
+    transform: translate(-50%);
 }
 
 /* */
