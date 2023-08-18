@@ -10,6 +10,7 @@ export default {
       },
       Staff: [
         { name: 'Harris Chung', img: 'chung-harris.webp', position: 'Research Assistant', description: 'He is interested in understanding the socio-cognitive process behinds human interaction. He has previously accomplished an undergraduate thesis examining the underlying implication of heart rate variability on self-esteem within a social context. Understanding how the world can be perceived in various perspectives is one of his primary curiosities. In his free time, he enjoys playing football and darts, taking film photos, and engaging in thought-provoking discussions with friends.', email: 'harris.cdclab@gmail.com', tel: '3943-3507'}
+        { name: 'Peanut Wong', img: 'wong-peanut.webp', position: 'Research Assistant', description: 'She obtained her Bachelor’s degree in psychology at CUHK. Her undergraduate thesis was on the role of representation coherence in moderating the benefits of swift perspective taking during emotion recognition. She is interested in how people regulate and represent their selves and others. She watches Haikyu!! to motivate herself.', email: 'peanut.cdclab@gmail.com', tel: '3943-3507'}
         ],
       HonStaff: [
         { name: 'Eunice Ho', img: 'ho-eunice.webp', position: 'Honorary Clinical Consultant', description: 'She is a clinical psychologist who enjoys working with children, adolescents, and their families. She is currently working with a group of children and their caregivers with adverse relational experiences. Her clinical and research interest lies in the development of trauma psychopathology and the contributive role that sociocognitive functioning plays in its formation.'},
@@ -46,9 +47,7 @@ export default {
         { name: 'Elaine To', img: 'MA/2022-to-elaine.webp', position: 'M.A. in Psychology', description: 'She is fascinated by how people’s thinking process can lead to very different behaviors and consequences in the same situation. She believes that knowledge in psychology is essential in guiding people through traumatic lifetime changes. She is interested in the association between childhood trauma, emotional regulation and relationship patterns.' }
         ],
       UG: [
-        { name: 'Hazel Lee', img: 'lee-hazel.webp', position: 'B.S.Sc. in Psychology', description: 'Hazel is currently a psychology UG student. She is interested in studying the relationship between attachment styles and the expression of aggression. She likes cats.' }, 
-        { name: 'Isla Wong', img: 'wong-isla.webp', position: 'B.S.Sc. in Psychology', description: 'She is interested in how unhealthy parenting practices are perpetuated inter-generationally, and their effect on adolescents’ mental health. Her undergraduate thesis place emphasis on how maltreatment contributes to teenagers’ borderline personality traits.' }, 
-        { name: 'Peanut Wong', img: 'wong-peanut.webp', position: 'B.S.Sc. in Psychology', description: 'She is curious about how people subjectively understand their own minds is related to their understanding of others’ mental states. Her undergraduate thesis aims to explore the dynamics between emotional ascription and perspective-taking.' }
+        {}
         ], 
       Alumni: [{ 
         degree: 'M.Phil. in Psychology',
@@ -76,6 +75,7 @@ export default {
         ]}, { 
         degree: 'B.S.Sc. in Psychology',
         years: [
+          { year: '2023', people: 'Hazel Lee, Isla Wong, Peanut Wong' }, 
           { year: '2022', people: 'Harris Chung, Raymond Ho, Joshua Yiu' }, 
           { year: '2021', people: 'Torres Chan, Celia Ho, Joey Leung, Hilvin Yu' }, 
           { year: '2020', people: 'Kam Hei Hui, Charmaine Tsoi' }, 
