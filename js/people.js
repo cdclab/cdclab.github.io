@@ -47,7 +47,7 @@ export default {
         { name: 'Elaine To', img: 'MA/2022-to-elaine.webp', position: 'M.A. in Psychology', description: 'She is fascinated by how people’s thinking process can lead to very different behaviors and consequences in the same situation. She believes that knowledge in psychology is essential in guiding people through traumatic lifetime changes. She is interested in the association between childhood trauma, emotional regulation and relationship patterns.' }
         ],
       UG: [
-        {name: '(Under Construction)', img: 'member-1.webp', position: '...', description: '...'}
+        {name: 'Hazel Lee', img: 'lee-hazel.webp', position: 'B.S.Sc. in', description: 'xxx'}
         ], 
       Alumni: [{ 
         degree: 'M.Phil. in Psychology',
