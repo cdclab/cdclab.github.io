@@ -11,18 +11,18 @@ export default {
       Staff: [
         { name: 'Harris Chung', img: 'chung-harris.webp', position: 'Research Assistant', description: 'He is interested in understanding the socio-cognitive process behinds human interaction. He has previously accomplished an undergraduate thesis examining the underlying implication of heart rate variability on self-esteem within a social context. Understanding how the world can be perceived in various perspectives is one of his primary curiosities. In his free time, he enjoys playing football and darts, taking film photos, and engaging in thought-provoking discussions with friends.', email: 'harris.cdclab@gmail.com', tel: '3943-3507'},
         { name: 'Peanut Wong', img: 'wong-peanut.webp', position: 'Research Assistant', description: 'She obtained her Bachelor’s degree in psychology at CUHK. Her undergraduate thesis was on the role of representation coherence in moderating the benefits of swift perspective taking during emotion recognition. She is interested in processes underlying how people regulate and represent themselves. She watches Haikyu!! to motivate herself.', email: 'peanut.cdclab@gmail.com', tel: '3943-3507'}
-        ],
+      ],
       HonStaff: [
         { name: 'Eunice Ho', img: 'ho-eunice.webp', position: 'Honorary Clinical Consultant', description: 'She is a clinical psychologist who enjoys working with children, adolescents, and their families. She is currently working with a group of children and their caregivers with adverse relational experiences. Her clinical and research interest lies in the development of trauma psychopathology and the contributive role that sociocognitive functioning plays in its formation.'},
         { name: 'Cathy Kwok', img: 'kwok-cathy.webp', position: 'Honorary Clinical Consultant', description: 'She is a clinical psychologist working in a residential care setting serving children and families with adverse childhood experiences. She is interested in understanding the developmental trajectory of trauma spectrum disorders, as well as the application and consolidation of a therapeutic approach for children that targets the dysfunctional self and other representations.'},
         { name: 'Alissa Ng', img: 'ng-alissa.webp', position: 'Honorary Clinical Consultant', description: 'During previous research studies, she explored the role of visuospatial perspective shifting in empathy and self-empathy. She is now a clinical psychologist working with at-risk adolescents in a community setting. There she continues her interest in exploring the processes and impact of how people relate with themselves and those around them.'},
         { name: 'Frankie Mak', img: 'mak-frankie.webp', position: 'Honorary Research Consultant', description: 'He obtained his Bachelor’s degree and M.Phil. degree in CUHK. He is interested in the cognitive underpinnings of mentalising ability and the situations that turn it on and off. With knowledge in these areas, he wants to develop low-intensity assessment and possible training tools to raise public awareness of different relational issues.' }
-        ], 
+      ], 
       RPg: [
         { name: 'Yimei Zhang', img: 'zhang-yimei.webp', position: 'Ph.D. in Psychology (Post-candidacy)', description: 'She is interested in how people with mental illness, such as borderline personality disorder, build up intimate relationships, and how they communicate with their intimate partners. She hopes her research can help people with mental illness develop healthy relationships in which they can perceive support and acquire improvement.'}, 
         { name: 'Kam Hei Hui', img: 'hui-kamhei.webp', position: 'Ph.D. in Psychology (Pre-candidacy)', description: 'Obtaining his Bachelor’s degree in CUHK, he is passionate in knowing how people imagine their future. He hopes to boost people’s determination and confidence to pursue their goals through update of autobiographical knowledge and biofeedback.'}, 
         { name: 'Celia Siu', img: 'siu-celia.webp', position: 'M.Phil. in Psychology', description: 'She is interested in people’s relationship with the self. During undergraduate study, she studied the individual difference of people’s attitude toward an unfavourable aspect of themselves. Currently, she is studying how childhood relational trauma and perceived loneliness may contribute to self-directed violence (suicide).'}
-        ], 
+      ], 
       CP: [
         { name: 'Bianca Chan', img: 'chan-bianca.webp', position: 'Psy.D. in Clinical Psychology', description: 'She is a clinical psychologist working in the child & adolescent team of a psychiatric hospital. She is interested in working with adolescents with attachment difficulties, especially those with evolving borderline personality traits. She is currently studying the role of dissociation in adolescent mental health disorders. She is also a plant lover.' }, 
         { name: 'Daniel Chan', img: 'chan-daniel.webp', position: 'Psy.D. in Clinical Psychology', description: 'Working in the public sector, he provides psychological service for individuals and families in need. His research is aimed at enhancing the understanding of how adverse childhood experiences impact mental health in adulthood, with a focus on childhood trauma and self-regulation. In his free time, he enjoys all sorts of outdoor activities.' }, 
@@ -35,7 +35,7 @@ export default {
         { name: 'Kristin Ng', img: 'ng-kristin.webp', position: 'M.S.Sc. in Clinical Psychology', description: 'Her research interest is in adverse life experience and the development of trauma-spectrum disorders and psychosis. She has always been fascinated by how temperament and environment shape a person’s relation to self, others and the world. She loves a nice hike, wine and true crime.' }, 
         { name: 'Tracy Tso', img: 'tso-tracy.webp', position: 'M.S.Sc. in Clinical Psychology', description: 'She previously obtained her MA degree in CUHK and completed a thesis about the interaction between affect and inner speech in people with schizophrenia. She is currently receiving training in clinical psychology and has a particular interest in the interaction between trauma and the development of self. She is also a yoga practitioner and a potter.' },
         { name: 'Charmaine Tsoi', img: 'tsoi-charmaine.webp', position: 'M.S.Sc. in Clinical Psychology', description: 'She obtained her Bachelor’s degree in CUHK. Her previous research studied the relationship between attachment styles and how one relates to the self. She enjoys working with children. She also loves eating, crocheting, and watching drama.' }
-        ],
+      ],
       MA: [
         { name: 'Emily Chan', img: 'MA/2022-chan-emily.webp', position: 'M.A. in Psychology', description: 'She is interested in the topic of Emotional Regulation. She would like to know how emotional regulation in daily life affects our well-being. Given that “Emotional Intelligence” (EQ) has been widely prevalent in recent years and numerous research shows that having high EQ is critical for achieving success and healthy interpersonal relations.' }, 
         { name: 'Karly Chuang', img: 'MA/2022-chuang-karly.webp', position: 'M.A. in Psychology', description: 'Graduated from the University of Hong Kong, she decided to pursue a master program in Psychology as she is naturally curious about how human character or behavior can be explained by their condition, and ultimately how that plays in the human relationship.' }, 
@@ -45,10 +45,10 @@ export default {
         { name: 'Vickie Lee', img: 'MA/2022-lee-vickie.webp', position: 'M.A. in Psychology', description: 'She’s interested in the associations between childhood events and mental illnesses, such as borderline personality disorder, and how relevant symptoms prevail in adult relationships. She aspires to explore ways to improve mental wellbeing through building healthy and supportive relationships.' }, 
         { name: 'Wayne Lee', img: 'MA/2022-lee-wayne.webp', position: 'M.A. in Psychology', description: 'Wayne is a second year part-time student of MA in Psychology. He is naturally curious about the complexities and intricacies of the human mind, especially the association between childhood traumas and relationship patterns.' }, 
         { name: 'Elaine To', img: 'MA/2022-to-elaine.webp', position: 'M.A. in Psychology', description: 'She is fascinated by how people’s thinking process can lead to very different behaviors and consequences in the same situation. She believes that knowledge in psychology is essential in guiding people through traumatic lifetime changes. She is interested in the association between childhood trauma, emotional regulation and relationship patterns.' }
-        ],
+      ],
       UG: [
-        {name: 'Hazel Lee', img: 'lee-hazel.webp', position: 'B.S.Sc. in', description: 'xxx'}
-        ], 
+        {name: '(Under Construction)', img: 'member-1.webp', position: '...', description: '...'}
+      ], 
       Alumni: [{ 
         degree: 'M.Phil. in Psychology',
         years: [
@@ -196,7 +196,7 @@ export default {
                 <p>{{person.description}}</p>
               </div>
             </div>
-
+<!--
             <div class="title-box">Undergraduate Thesis Students</div>
             <div class="people-card flex-box" v-for="person in UG">
               <div class="flex-250">
@@ -208,7 +208,7 @@ export default {
                 <p>{{person.description}}</p>
               </div>
             </div>
-
+-->
             <div class="title-box">Alumni</div>
             <div class="toggle-section" v-for="degree in Alumni">
               <p class="toggleBtn" @click="toggleTable($event)"><i class="fa fa-chevron-right toggle-icon"></i>{{degree.degree}}</p>
