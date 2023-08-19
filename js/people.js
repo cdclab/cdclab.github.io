@@ -46,9 +46,9 @@ export default {
         { name: 'Wayne Lee', img: 'MA/2022-lee-wayne.webp', position: 'M.A. in Psychology', description: 'Wayne is a second year part-time student of MA in Psychology. He is naturally curious about the complexities and intricacies of the human mind, especially the association between childhood traumas and relationship patterns.' }, 
         { name: 'Elaine To', img: 'MA/2022-to-elaine.webp', position: 'M.A. in Psychology', description: 'She is fascinated by how people’s thinking process can lead to very different behaviors and consequences in the same situation. She believes that knowledge in psychology is essential in guiding people through traumatic lifetime changes. She is interested in the association between childhood trauma, emotional regulation and relationship patterns.' }
         ],
-      //UG: [
-       // {name: '(Under Construction)', img: 'member-1.webp', position: '...', description: '...'}
-       // ], 
+      UG: [
+        {name: '(Under Construction)', img: 'member-1.webp', position: '...', description: '...'}
+        ], 
       Alumni: [{ 
         degree: 'M.Phil. in Psychology',
         years: [
