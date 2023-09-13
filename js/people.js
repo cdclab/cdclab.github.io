@@ -39,7 +39,7 @@ export default {
         {name: '(Under Construction)', img: 'member-1.webp', position: 'Undergraduate Thesis Student', description: '...'}
       ], 
       Alumni: [{ 
-        degree: 'M.Phil. in Psychology',
+        degree: 'M.Phil./ Ph.D. in Psychology',
         years: [
           { year: '2023', people: 'Celia Siu' }, 
           { year: '2022', people: 'Frankie Mak' }, 

@@ -46,7 +46,7 @@ export default {
               <div class="flex-60">
                 <h2>Student Volunteers</h2>
                 <p>We are looking for student volunteers who are passionate to learn more about psychopathology and promote mental health. Ideally, student volunteers should commit at least 8 hours per week to various lab tasks, such as data collection, data entry, audio transcription, and literature review.</p>
-                <p>If you are interested, please write to us about yourselves and your research interest, together with your CV and latest transcript. Please send them to Harris (<span class="highlight">harris.cdclab@gmail.com</span>). Please note that only students who plan to work for a long period of time (e.g., over 1 year) will be considered. </p>
+                <p>If you are interested, please write to us about yourselves and your research interest, together with your CV and latest transcript. Please send them to Peanut (<span class="highlight">peanut.cdclab@gmail.com</span>). Please note that only students who plan to work for a long period of time (e.g., over 1 year) will be considered. </p>
               </div>
 
               <div class="flex-40">
