@@ -6,7 +6,7 @@ export default {
     return {
       imgpath: './img/members/',
       CD: {
-        img: 'chiu.webp', position: 'Associate Professor, CUHK', description: 'Trained in applying experimental approaches to delineating the cognitive mechanisms of psychopathology, his clinical and research interests concern the impact of aversive interpersonal experience and stressful life events on mental health. His current research focuses on exploring the role of dysfunctional self-regulation (e.g., self-esteem, shame, and self-versus-other boundary) in stress-related disorders such as post-traumatic stress disorder, dissociative disorders, and borderline personality disorder.'
+        img: 'chiu.webp', description: 'Trained in applying experimental approaches to delineating the cognitive mechanisms of psychopathology, his clinical and research interests concern the impact of aversive interpersonal experience and stressful life events on mental health. His current research focuses on exploring the role of dysfunctional self-regulation (e.g., self-esteem, shame, and self-versus-other boundary) in stress-related disorders such as post-traumatic stress disorder, dissociative disorders, and borderline personality disorder.'
       },
       Staff: [
         { name: 'Peanut Wong', img: 'wong-peanut.webp', position: 'Research Assistant', description: 'She obtained her Bachelor’s degree in psychology at CUHK. Her undergraduate thesis was on the role of representation coherence in moderating the benefits of swift perspective taking during emotion recognition. She is interested in processes underlying how people regulate and represent themselves. She watches Haikyu!! to motivate herself.', email: 'peanut.cdclab@gmail.com', tel: '3943-3507'}
@@ -107,7 +107,7 @@ export default {
               </div>
               <div class="flex-60">
                 <span class="name">Prof. Chui-De CHIU</span>
-                <span class="position">{{CD.position}}</span>
+                <span class="position">Associate Professor, CUHK <br> Clinical Psychologist</span>
 
                 <p style="margin-bottom: 8px"><a href="https://www.researchgate.net/profile/Chui-De-Chiu" target="_blank">ResearchGate</a> | 
                 <a href="https://orcid.org/0000-0002-6159-8531" target="_blank">ORCID</a> | 
