@@ -107,7 +107,7 @@ export default {
               </div>
               <div class="flex-60">
                 <span class="name">Prof. Chui-De CHIU</span>
-                <span class="position">Associate Professor, CUHK <br> Clinical Psychologist</span>
+                <span class="position">Associate Professor, CUHK <br>Visiting Fellow, McLean Hospital and Harvard Medical School (2023-24) <br>Associate member, Hong Kong Hub of Paediatric Excellence, Hong Kong Children’s Hospital & CUHK <br>Clinical Psychologist</span>
 
                 <p style="margin-bottom: 8px"><a href="https://www.researchgate.net/profile/Chui-De-Chiu" target="_blank">ResearchGate</a> | 
                 <a href="https://orcid.org/0000-0002-6159-8531" target="_blank">ORCID</a> | 
