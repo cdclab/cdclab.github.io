@@ -16,6 +16,7 @@
 	--color-banner-background: #EEEEEE;
 	--color-banner-pale-background: #FFF5EE; /* Seashell */
 	--color-navbar-text: #2D2926; /* Black */;
+	--color-position-affiliation: #929292; /* hehe*/
 
 	font-size: 75%;
 }
@@ -576,6 +577,12 @@ section#chiu .position, section#members .position {
 	font-size: 1rem;
 	font-weight: 700;
 }
+
+section#chiu .position-affiliation {
+	color: var(--color-position-affiliation);
+	font-weight: 501;
+}
+
 
 section#gallery {
 	display: flex;
