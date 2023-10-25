@@ -36,7 +36,8 @@ export default {
        // { name: 'xxx', img: 'xxx', position: 'M.A. in Psychology', description: 'description'}
       //],
       UG: [
-        {name: '(Under Construction)', img: 'member-1.webp', position: 'Undergraduate Thesis Student', description: '...'}
+        {name: 'Kyle Law', img: 'law-kyle.webp', position: 'Undergraduate Thesis Student', description: 'He is intrigued by the mechanisms of empathy representation and is keen to explore how personal distress and adversive childhood experiences can facilitate or hinder people’s ability to represent empathy. He is also curious about how these traits affect people differently when applied in an emotion differentiated perspective on empathy. He likes watching fantasy series and novels such as Twilight and Harry Potter.'},
+        {name: 'Davin Yeung', img: 'yeung-davin.webp', position: 'Undergraduate Thesis Student', description: 'Currently conducting his undergraduate thesis, he is interested in the individual differences in how people obtain and interpret information during social interactions, specifically for understanding others’ emotions and perspectives through facial expressions, body postures, and environmental scenes.'}
       ], 
       Alumni: [{ 
         degree: 'M.Phil./ Ph.D. in Psychology',
@@ -194,7 +195,6 @@ export default {
               </div>
             </div>
 -->
-<!--
             <div class="title-box">Undergraduate Thesis Students</div>
             <div class="people-card flex-box" v-for="person in UG">
               <div class="flex-250">
@@ -206,7 +206,7 @@ export default {
                 <p>{{person.description}}</p>
               </div>
             </div>
--->
+
             <div class="title-box">Alumni</div>
             <div class="toggle-section" v-for="degree in Alumni">
               <p class="toggleBtn" @click="toggleTable($event)"><i class="fa fa-chevron-right toggle-icon"></i>{{degree.degree}}</p>
