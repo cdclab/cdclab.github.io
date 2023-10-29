@@ -46,6 +46,7 @@ export default {
 								<splide-slide><img src="./img/home/lab-photo-2023-06.jpg" width="636" height="358" alt=""><span class="splide-description">Jun 2023</span></splide-slide>
 								<splide-slide><img data-splide-lazy="./img/home/lab-photo-2023-05.jpg" width="636" height="358" alt=""><span class="splide-description">May 2023</span></splide-slide>
 								<splide-slide><img data-splide-lazy="./img/home/lab-photo-2022-06.jpg" width="636" height="358" alt=""><span class="splide-description">Jun 2022</span></splide-slide>
+								<splide-slide><img src="./img/home/lab-photo-2020-12.webp" width="636" height="358" alt=""><span class="splide-description">Dec 2020</span></splide-slide>
 								<splide-slide><img src="./img/home/lab-photo-2019-10.jpg" width="636" height="358" alt=""><span class="splide-description">Oct 2019</span></splide-slide>
 								<splide-slide><img data-splide-lazy="./img/home/lab-photo-2018-12.jpg" width="636" height="358" alt=""><span class="splide-description">Dec 2018</span></splide-slide>
 								<splide-slide><img data-splide-lazy="./img/home/lab-photo-2018-06.jpeg" width="636" height="358" alt=""><span class="splide-description">Jun 2018</span></splide-slide>
