@@ -19,7 +19,6 @@ export default {
         { name: 'Harris Chung', img: 'chung-harris.webp', position: 'Honorary Research Consultant', description: 'He is interested in understanding the socio-cognitive process behinds human interaction. He has previously accomplished an undergraduate thesis examining the underlying implication of heart rate variability on self-esteem within a social context. Understanding how the world can be perceived in various perspectives is one of his primary curiosities. In his free time, he enjoys playing football and darts, taking film photos, and engaging in thought-provoking discussions with friends.'}
       ], 
       RPg: [
-        { name: 'Yimei Zhang', img: 'zhang-yimei.webp', position: 'Ph.D. in Psychology (Post-candidacy)', description: 'She is interested in how people with mental illness, such as borderline personality disorder, build up intimate relationships, and how they communicate with their intimate partners. She hopes her research can help people with mental illness develop healthy relationships in which they can perceive support and acquire improvement.'}, 
         { name: 'Kam Hei Hui', img: 'hui-kamhei.webp', position: 'Ph.D. in Psychology (Pre-candidacy)', description: 'Obtaining his Bachelor’s degree in CUHK, he is passionate in knowing how people imagine their future. He hopes to boost people’s determination and confidence to pursue their goals through update of autobiographical knowledge and biofeedback.'}
       ], 
       CP: [
@@ -44,10 +43,10 @@ export default {
       Alumni: [{ 
         degree: 'M.Phil./ Ph.D. in Psychology',
         years: [
-          { year: '2023', people: 'Celia Siu' }, 
-          { year: '2022', people: 'Frankie Mak' }, 
-          { year: '2021', people: 'Alfred Lo' }, 
-          { year: '2019', people: 'Alissa Ng' }
+          { year: '2023', people: 'M.Phil. : Celia Siu ; Ph.D. : Yimei Zhang'}, 
+          { year: '2022', people: 'M.Phil. : Frankie Mak' }, 
+          { year: '2021', people: 'M.Phil. : Alfred Lo' }, 
+          { year: '2019', people: 'M.Phil. : Alissa Ng' }
         ]}, { 
         degree: 'M.S.Sc. in Clinical Psychology',
         years: [
