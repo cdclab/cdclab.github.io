@@ -50,6 +50,8 @@ export default {
 								<splide-slide><img src="./img/home/lab-photo-2019-10.jpg" width="636" height="358" alt=""><span class="splide-description">Oct 2019</span></splide-slide>
 								<splide-slide><img data-splide-lazy="./img/home/lab-photo-2018-12.jpg" width="636" height="358" alt=""><span class="splide-description">Dec 2018</span></splide-slide>
 								<splide-slide><img data-splide-lazy="./img/home/lab-photo-2018-06.jpeg" width="636" height="358" alt=""><span class="splide-description">Jun 2018</span></splide-slide>
+								<splide-slide><img src="./img/home/lab-photo-2018-05.jpg" width="636" height="358" alt=""><span class="splide-description">May 2018</span></splide-slide>
+								<splide-slide><img src="./img/home/lab-photo-2018-04.jpg" width="636" height="358" alt=""><span class="splide-description"> Apr 2018</span></splide-slide>
 								<splide-slide><img data-splide-lazy="./img/home/lab-photo-2017-12.jpg" width="636" height="358" alt=""><span class="splide-description">Dec 2017</span></splide-slide>
 								<splide-slide><img data-splide-lazy="./img/home/lab-photo-2017-09-02.jpg" width="636" height="358" alt=""><span class="splide-description">Sep 2017</span></splide-slide>
 								<splide-slide><img data-splide-lazy="./img/home/lab-photo-2017-09.jpg" width="636" height="358" alt=""><span class="splide-description">Sep 2017</span></splide-slide>
