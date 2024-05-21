@@ -27,7 +27,6 @@ export default {
         { name: 'Rachel Chong', img: 'chong-rachel.webp', position: 'M.S.Sc. in Clinical Psychology', description: 'Senior learner, research newbie. She loves stories of human experiences, which transformed into her research interest. She looks into children’s stories for more understanding of the development of ‘self’, especially their socioemotional development, and how childhood trauma affects one’s relational knowledge. Good food and cat cuddles made her day.' }, 
         { name: 'Raymond Ho', img: 'ho-raymond.webp', position: 'M.S.Sc. in Clinical Psychology', description: 'He is interested in understanding human in computational approaches. During his undergraduate study, he studied the relationship between self-referential source memory and emotional empathy. He is now studying the cognitive underpinnings in the development of emotional recognition. He likes statistics, science, and karaoke.' }, 
         { name: 'Terry Lau', img: 'lau-terry.webp', position: 'M.S.Sc. in Clinical Psychology', description: 'She obtained her bachelor’s degree and masters’ degree in psychology and clinical mental health sciences at the University College London. Her research interests lie in eating disorders and borderline personality disorder. Her personal interests lie in brewing coffee, and any activities that requires a strong heart. She might also be taller than you think.' }, 
-        { name: 'Veronica Lee', img: 'lee-veronica.webp', position: 'M.S.Sc. in Clinical Psychology', description: 'She is interested in studying adverse childhood events and intergenerational transmission of trauma, particularly focusing on protective and resilience factors. She loves spending time with her two orange cats and enjoys being outdoors under the sun.' }, 
         { name: 'Francesca Leventhal', img: 'leventhal-francesca.webp', position: 'M.S.Sc. in Clinical Psychology', description: 'In broad terms, she is interested in understanding the process of personal development and how individuals shape their sense of self. Particularly, she focuses on exploring how people make sense of the world around them. Through research, she delves into children’s stories as a mean to gain insight into the development of their sense of self.  She enjoys spending time with animals, being outdoors, and indulging in a cup of coffee at a cozy cafe.'},
         { name: 'Kristin Ng', img: 'ng-kristin.webp', position: 'M.S.Sc. in Clinical Psychology', description: 'Her research interest is in adverse life experience and the development of trauma-spectrum disorders and psychosis. She has always been fascinated by how temperament and environment shape a person’s relation to self, others and the world. She loves a nice hike, wine and true crime.' }, 
         { name: 'Tracy Tso', img: 'tso-tracy.webp', position: 'M.S.Sc. in Clinical Psychology', description: 'She previously obtained her MA degree in CUHK and completed a thesis about the interaction between affect and inner speech in people with schizophrenia. She is currently receiving training in clinical psychology and has a particular interest in the interaction between trauma and the development of self. She is also a yoga practitioner and a potter.' },
@@ -36,10 +35,9 @@ export default {
       //MA: [
        // { name: 'xxx', img: 'xxx', position: 'M.A. in Psychology', description: 'description'}
       //],
-      UG: [
-        {name: 'Kyle Law', img: 'law-kyle.webp', position: 'Undergraduate Thesis Student', description: 'He is intrigued by the mechanisms of empathy representation and is keen to explore how personal distress and adversive childhood experiences can facilitate or hinder people’s ability to represent empathy. He is also curious about how these traits affect people differently when applied in an emotion differentiated perspective on empathy. He likes watching fantasy series and novels such as Twilight and Harry Potter.'},
-        {name: 'Davin Yeung', img: 'yeung-davin.webp', position: 'Undergraduate Thesis Student', description: 'Currently conducting his undergraduate thesis, he is interested in the individual differences in how people obtain and interpret information during social interactions, specifically for understanding others’ emotions and perspectives through facial expressions, body postures, and environmental scenes.'}
-      ], 
+      //UG: [
+        //{name: 'xxx', img: 'xxx.webp', position: 'Undergraduate Thesis Student', description: 'description'},
+      //], 
       Alumni: [{ 
         degree: 'M.Phil./ Ph.D. in Psychology',
         years: [
@@ -69,6 +67,7 @@ export default {
         ]}, { 
         degree: 'B.S.Sc. in Psychology',
         years: [
+          { year: '2024', people: 'Kyle Law, Davin Yeung' },
           { year: '2023', people: 'Hazel Lee, Isla Wong, Peanut Wong' }, 
           { year: '2022', people: 'Harris Chung, Raymond Ho, Joshua Yiu' }, 
           { year: '2021', people: 'Torres Chan, Celia Ho, Joey Leung, Hilvin Yu' }, 
@@ -195,7 +194,7 @@ export default {
                 <p>{{person.description}}</p>
               </div>
             </div>
--->
+
             <div class="title-box">Undergraduate Thesis Students</div>
             <div class="people-card flex-box" v-for="person in UG">
               <div class="flex-250">
@@ -207,7 +206,7 @@ export default {
                 <p>{{person.description}}</p>
               </div>
             </div>
-
+  -->
             <div class="title-box">Alumni</div>
             <div class="toggle-section" v-for="degree in Alumni">
               <p class="toggleBtn" @click="toggleTable($event)"><i class="fa fa-chevron-right toggle-icon"></i>{{degree.degree}}</p>
