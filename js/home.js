@@ -38,7 +38,7 @@ export default {
 						</div>
 						<div class="flex-60">
 							<splide :options="{ type: 'fade', rewind: true, speed: 2000, arrows: false, drag: false, autoplay: true, interval: 4000, pauseOnHover: false, pauseOnFocus: false, lazyLoad: 'sequential' }" aria-label="Services">
-								<splide-slide><img src="./img/home/lab-photo-2024-06.jpeg" width="636" height="358" alt=""><span class="splide-description">Cambridge (Harvard)</span></splide-slide>
+								<splide-slide><img src="./img/home/lab-photo-2024-06.jpeg" width="636" height="358" alt=""><span class="splide-description">June 2024,  Cambridge (Harvard)</span></splide-slide>
 								<splide-slide><img src="./img/home/lab-photo-2024-05-24.jpg" width="636" height="358" alt=""><span class="splide-description">May 2024</span></splide-slide>
 								<splide-slide><img src="./img/home/lab-photo-2023-09-03.jpeg" width="636" height="358" alt=""><span class="splide-description">Sep 2023</span></splide-slide>
 								<splide-slide><img src="./img/home/lab-photo-2023-09-02.jpeg" width="636" height="358" alt=""><span class="splide-description">Sep 2023</span></splide-slide>
