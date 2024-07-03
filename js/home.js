@@ -38,24 +38,24 @@ export default {
 						</div>
 						<div class="flex-60">
 							<splide :options="{ type: 'fade', rewind: true, speed: 2000, arrows: false, drag: false, autoplay: true, interval: 4000, pauseOnHover: false, pauseOnFocus: false, lazyLoad: 'sequential' }" aria-label="Services">
-								<splide-slide><img src="./img/home/lab-photo-2024-06.jpeg" width="636" height="358" alt=""><span class="splide-description">June 2024,  Cambridge (Harvard)</span></splide-slide>
-								<splide-slide><img src="./img/home/lab-photo-2024-05-24.jpg" width="636" height="358" alt=""><span class="splide-description">May 2024</span></splide-slide>
+								<splide-slide><img src="./img/home/lab-photo-2024-06.jpeg" width="636" height="358" alt=""><span class="splide-description">June 2024 (Harvard, Cambridge, U.S.A.)</span></splide-slide>
+								<splide-slide><img src="./img/home/lab-photo-2024-05-24.jpg" width="636" height="358" alt=""><span class="splide-description">May 2024 (Rio, Brazil) </span></splide-slide>
 								<splide-slide><img src="./img/home/lab-photo-2023-09-03.jpeg" width="636" height="358" alt=""><span class="splide-description">Sep 2023</span></splide-slide>
 								<splide-slide><img src="./img/home/lab-photo-2023-09-02.jpeg" width="636" height="358" alt=""><span class="splide-description">Sep 2023</span></splide-slide>
 								<splide-slide><img src="./img/home/lab-photo-2023-09-01.jpeg" width="636" height="358" alt=""><span class="splide-description">Sep 2023</span></splide-slide>
 								<splide-slide><img src="./img/home/lab-photo-2023-08-2.jpg" width="636" height="358" alt=""><span class="splide-description">Aug 2023</span></splide-slide>
 								<splide-slide><img src="./img/home/lab-photo-2023-08.jpg" width="636" height="358" alt=""><span class="splide-description">Aug 2023</span></splide-slide>
 								<splide-slide><img src="./img/home/lab-photo-2023-06.jpg" width="636" height="358" alt=""><span class="splide-description">Jun 2023</span></splide-slide>
-								<splide-slide><img data-splide-lazy="./img/home/lab-photo-2023-05.jpg" width="636" height="358" alt=""><span class="splide-description">May 2023</span></splide-slide>
+								<splide-slide><img data-splide-lazy="./img/home/lab-photo-2023-05.jpg" width="636" height="358" alt=""><span class="splide-description">May 2023 (Kyoto, Japan)</span></splide-slide>
 								<splide-slide><img data-splide-lazy="./img/home/lab-photo-2022-06.jpg" width="636" height="358" alt=""><span class="splide-description">Jun 2022</span></splide-slide>
 								<splide-slide><img src="./img/home/lab-photo-2020-12.webp" width="636" height="358" alt=""><span class="splide-description">Dec 2020</span></splide-slide>
-								<splide-slide><img src="./img/home/lab-photo-2019-10.jpg" width="636" height="358" alt=""><span class="splide-description">Oct 2019</span></splide-slide>
+								<splide-slide><img src="./img/home/lab-photo-2019-10.jpg" width="636" height="358" alt=""><span class="splide-description">Oct 2019 (Fukuoka, Japan) </span></splide-slide>
 								<splide-slide><img data-splide-lazy="./img/home/lab-photo-2018-12.jpg" width="636" height="358" alt=""><span class="splide-description">Dec 2018</span></splide-slide>
-								<splide-slide><img data-splide-lazy="./img/home/lab-photo-2018-06.jpeg" width="636" height="358" alt=""><span class="splide-description">Jun 2018</span></splide-slide>
+								<splide-slide><img data-splide-lazy="./img/home/lab-photo-2018-06.jpeg" width="636" height="358" alt=""><span class="splide-description">Jun 2018 (Amsterdam, Netherlands)</span></splide-slide>
 								<splide-slide><img src="./img/home/lab-photo-2018-05.jpg" width="636" height="358" alt=""><span class="splide-description">May 2018</span></splide-slide>
 								<splide-slide><img src="./img/home/lab-photo-2018-04.jpg" width="636" height="358" alt=""><span class="splide-description"> Apr 2018</span></splide-slide>
 								<splide-slide><img data-splide-lazy="./img/home/lab-photo-2017-12.jpg" width="636" height="358" alt=""><span class="splide-description">Dec 2017</span></splide-slide>
-								<splide-slide><img data-splide-lazy="./img/home/lab-photo-2017-09-02.jpg" width="636" height="358" alt=""><span class="splide-description">Sep 2017</span></splide-slide>
+								<splide-slide><img data-splide-lazy="./img/home/lab-photo-2017-09-02.jpg" width="636" height="358" alt=""><span class="splide-description">Sep 2017 (Heidelberg, Germany)</span></splide-slide>
 								<splide-slide><img data-splide-lazy="./img/home/lab-photo-2017-09.jpg" width="636" height="358" alt=""><span class="splide-description">Sep 2017</span></splide-slide>
 								<splide-slide><img data-splide-lazy="./img/home/lab-photo-2017-03.jpg" width="636" height="358" alt=""><span class="splide-description">Mar 2017</span></splide-slide>
 								<splide-slide><img data-splide-lazy="./img/home/lab-photo-2016-12.jpg" width="636" height="358" alt=""><span class="splide-description">Dec 2016</span></splide-slide>

@@ -41,7 +41,7 @@ export default {
       Alumni: [{ 
         degree: 'M.Phil./ Ph.D. in Psychology',
         years: [
-          { year: '2023', people: 'M.Phil. : Celia Siu ; Ph.D. : Yimei Zhang'}, 
+          { year: '2023', people: 'Ph.D. : Yimei Zhang ; M.Phil. : Celia Siu'}, 
           { year: '2022', people: 'M.Phil. : Frankie Mak' }, 
           { year: '2021', people: 'M.Phil. : Alfred Lo' }, 
           { year: '2019', people: 'M.Phil. : Alissa Ng' }
