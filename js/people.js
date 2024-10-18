@@ -35,7 +35,10 @@ export default {
        // { name: 'xxx', img: 'xxx', position: 'M.A. in Psychology', description: 'description'}
       //],
       UG: [
-        //{name: 'xxx', img: 'xxx.webp', position: 'Undergraduate Thesis Student', description: 'description'},
+        {name: 'Nathan Fung', img: 'fung-nathan.webp', position: 'Undergraduate Thesis Student', description: 'He is interested in how people’s physiological reactions affect their social interactions. In his spare time, he likes to dive into the world of literature and write songs to yap about his life. His divergent thinking is too powerful that he cannot choose what to talk about here. '},
+        {name: 'Jacky Ng', img: 'ng-jacky.webp', position: 'Undergraduate Thesis Student', description: 'He is interested in exploring the relationship between psychopathology and emotional functioning. Particularly, he hopes to understand how trauma history plays a role in the emotional dysregulation of oneself. He enjoys being outdoors, learning languages, and writing about life in his leisure time. '},
+        {name: 'Jamie Wong', img: 'wong-jamie.webp', position: 'Undergraduate Thesis Student', description: 'As a children lover, she is deeply interested in their cognitive development and how relational experiences shape their personalities. One of her ultimate goals is to gain a deeper understanding of the world through diverse perspectives. She has a love for all things related to art and music and eagerly embraces new experiences while seeking out intriguing adventures.'},
+        {name: 'Seline Yeung', img: 'yeung-seline.webp', position: 'Undergraduate Thesis Student', description: 'She is currently in her final year of undergraduate studies at CUHK, where her thesis explores the influence of trauma history on mentalization. In addition to her academic pursuits, she aspires to be a foodie and a traveler, always eager to explore new cultures and cuisines.'},
       ], 
       Alumni: [{ 
         degree: 'M.Phil./ Ph.D. in Psychology',
@@ -194,7 +197,7 @@ export default {
                 <p>{{person.description}}</p>
               </div>
             </div>
-
+-->
             <div class="title-box">Undergraduate Thesis Students</div>
             <div class="people-card flex-box" v-for="person in UG">
               <div class="flex-250">
@@ -206,7 +209,7 @@ export default {
                 <p>{{person.description}}</p>
               </div>
             </div>
-  -->
+  
             <div class="title-box">Alumni</div>
             <div class="toggle-section" v-for="degree in Alumni">
               <p class="toggleBtn" @click="toggleTable($event)"><i class="fa fa-chevron-right toggle-icon"></i>{{degree.degree}}</p>
