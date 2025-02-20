@@ -33,6 +33,9 @@ export default {
 		    	<div class="card wrapper-horizontal">
 				    <h2>The neurocognitive underpinnings of trauma-spectrum disorders</h2>
 				    <h3>Self- and other-representation (social cognition)</h3>
+
+					<p><b>Chiu, C.-D.</b>, Au, J. S., Pau, N. H. Y., <b>Chung, H. C. W.</b>, & Choi-Kain, L. W. (2022). <a href="https://doi.org/10.1037/tra0001834" target="_blank">My playbook: Psychotherapy role expectations, relational trauma, and trauma-spectrum mental dysfunctions in community mental health service users in Hong Kong. </a> <em><b>Psychological Trauma: Theory, Research, Practice, and Policy.</b></em><em></em> Advance online publication.</p>
+
 				    <p>van Schie, C. C., <b>Chiu, C.-D.</b>, Rombouts, S. A. R. B., Heiser, W. J., & Elzinga, B. M. (2022). <a href="https://doi.org/10.1016/j.brat.2022.104182" target="_blank">Finding a positive me: Affective and neural insights into the challenges of positive autobiographical memory reliving in borderline personality disorder</a>. <em><b>Behaviour Research and Therapy</b></em>, <em>158</em>, Article 104182.</p>
 				    <p>Lynn, S. J., Polizzi, C. P., Merckelbach, H., <b>Chiu, C.-D.</b>, Maxwell, R., van Heugten, D., & Lilienfeld, S. O. (2022). <a href="https://doi.org/10.1146/annurev-clinpsy-081219-102424" target="_blank">Dissociation and dissociative disorders reconsidered: Beyond sociocognitive and trauma models toward a transtheoretical framework</a>. <em><b>Annual Review of Clinical Psychology</b>, 18</em>, 259–289.</p>
 				    <p><b>Chiu, C.-D.</b>, <b>Ho, H. L.</b>, & Tollenaar, M. S. (2022). <a href="https://doi.org/10.1037/tra0001017" target="_blank">Relational self-evaluations in dissociation: Implicit self-rejection?</a> <em><b>Psychological Trauma: Theory, Research, Practice, and Policy</b></em>, <em>14</em>(1), 99–106.</p>
