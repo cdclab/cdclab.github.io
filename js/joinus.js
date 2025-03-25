@@ -31,8 +31,7 @@ export default {
               <div class="flex-60">
                 <h2>Participants</h2>
                 <p>We are now recruiting participants for the following studies:</p>
-                <a class="joinus-recruit" href="http://esurvey.psy.cuhk.edu.hk/jfe/form/SV_9NdyWrZvdWZmLYy" target="_blank">⭐⭐⭐誠邀確診邊緣性人格障礙或有邊緣性人格特質的女性參與心理健康研究（歡迎校外人士參與）☀️☀️☀️</a>
-                <a class="joinus-recruit" href="https://forms.gle/5uC4r9tpU1S67h2C8" target="_blank">👩👧👦 誠邀母親與8-12歲小朋友參與親子研究 3小時實驗 $350報酬❗️❕</a>
+                <a class="joinus-recruit" href="https://qualtricsxm76cpk6frh.qualtrics.com/jfe/form/SV_9SGTbXVxrKv1P5c" target="_blank">💞 自我關懷對話實驗 Magic Chair Experiment 💞 （歡迎18歲以上，認識繁體中文人士報名參加！）</a>
               </div>
 
               <div class="flex-40">
