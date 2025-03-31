@@ -38,6 +38,7 @@ export default {
 						</div>
 						<div class="flex-60">
 							<splide :options="{ type: 'fade', rewind: true, speed: 2000, arrows: false, drag: false, autoplay: true, interval: 4000, pauseOnHover: false, pauseOnFocus: false, lazyLoad: 'sequential' }" aria-label="Services">
+								<splide-slide><img src="./img/home/lab-photo-2025-03.jpg" width="636" height="358" alt=""><span class="splide-description">Sep 2024</span></splide-slide>
 								<splide-slide><img src="./img/home/lab-photo-2024-09.jpeg" width="636" height="358" alt=""><span class="splide-description">Sep 2024</span></splide-slide>	
 								<splide-slide><img src="./img/home/lab-photo-2024-08-12.jpeg" width="636" height="358" alt=""><span class="splide-description">Aug 2024</span></splide-slide>
 								<splide-slide><img src="./img/home/lab-photo-2024-08.jpeg" width="636" height="358" alt=""><span class="splide-description">Aug 2024</span></splide-slide>	
@@ -77,7 +78,8 @@ export default {
 						</div>
 						<div class="flex-60">
 							<splide :options="{ type: 'fade', rewind: true, speed: 2000, arrows: false, drag: false, autoplay: true, interval: 4000, pauseOnHover: false, pauseOnFocus: false, lazyLoad: 'sequential' }" aria-label="Services">
-							<splide-slide><img data-splide-lazy="./img/home/service-photo-2025-01.jpg" width="636" height="358" alt=""><span class="splide-description">Jan 2025 – SWD Workshop</span></splide-slide>	
+								<splide-slide><img data-splide-lazy="./img/home/service-photo-2025-03.jpeg" width="636" height="358" alt=""><span class="splide-description">Mar 2025 – ACA Forum </span></splide-slide>
+								<splide-slide><img data-splide-lazy="./img/home/service-photo-2025-01.jpg" width="636" height="358" alt=""><span class="splide-description">Jan 2025 – SWD Workshop</span></splide-slide>	
 								<splide-slide><img data-splide-lazy="./img/home/service-photo-2024-10-2.jpeg" width="636" height="358" alt=""><span class="splide-description">Oct 2024 – BOKSS Workshop</span></splide-slide>
 								<splide-slide><img data-splide-lazy="./img/home/service-photo-2024-10-1.jpeg" width="636" height="358" alt=""><span class="splide-description">Oct 2024 – BOKSS Workshop</span></splide-slide>
 								<splide-slide><img data-splide-lazy="./img/home/service-photo-2024-09-26-1.jpg" width="636" height="358" alt=""><span class="splide-description">Sep 2024 – CUHK Seminar</span></splide-slide>
