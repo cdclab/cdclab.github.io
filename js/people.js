@@ -32,7 +32,7 @@ export default {
         
       ],
       MA: [
-        //{ name: 'xxx', img: 'xxx', position: 'M.A. in Psychology', description: 'description'}
+        { name: 'Xianwen Huang', img: 'member-3.webp', position: 'M.A. in Psychology', description: ''},
         { name: 'Hebi Wong', img: 'wong-hebi.webp', position: 'M.A. in Psychology', description: 'Prior to her Master’s degree at CUHK, she obtained BBA in GBUS & MGMT at HKUST, followed by years of experience in the tourism industry. Her thesis investigates the internal projection of self-relation onto self-other models, and the role of emotion regulation mechanism. Her interests center on the formation of self-concept and its influence on interpersonal dynamics. She enjoys traveling, cross-cultural exchange, nature, human connection and singing.'},
         { name: 'Jiayi Wu', img: 'wu-jiayi.webp', position: 'M.A. in Psychology', description: 'Her motivation to learning psychology stems more from a deep fascination with human nature itself and she greatly enjoys experiencing life, observing and engaging with people. Combined with her own experience, her research interests mostly lie in cognitive field, such as memory and sleep. In her free time, she has a wide range of interests, from learning various languages, playing musical instruments to handicrafts, trying everything she is curious about becomes her distinctive lifestyle.'},
         
