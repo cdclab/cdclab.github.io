@@ -31,9 +31,12 @@ export default {
         { name: 'Dickson Wong', img: 'wong-dickson.webp', position: 'M.S.Sc. in Clinical Psychology', description: 'He obtained his Bachelor’s degree at CUHK. He is interested in exploring psychopathology related to self and others, particularly how the sense of self and experience may shape a person’s development. In his free time, he enjoys playing table tennis, cycling, and reading for leisure.' }, 
         
       ],
-      //MA: [
-       // { name: 'xxx', img: 'xxx', position: 'M.A. in Psychology', description: 'description'}
-      //],
+      MA: [
+        //{ name: 'xxx', img: 'xxx', position: 'M.A. in Psychology', description: 'description'}
+        { name: 'Hebi Wong', img: 'wong-hebi.webp', position: 'M.A. in Psychology', description: 'Prior to her Master’s degree at CUHK, she obtained BBA in GBUS & MGMT at HKUST, followed by years of experience in the tourism industry. Her thesis investigates the internal projection of self-relation onto self-other models, and the role of emotion regulation mechanism. Her interests center on the formation of self-concept and its influence on interpersonal dynamics. She enjoys traveling, cross-cultural exchange, nature, human connection and singing.'},
+        { name: 'Jiayi Wu', img: 'wu-jiayi.webp', position: 'M.A. in Psychology', description: 'Her motivation to learning psychology stems more from a deep fascination with human nature itself and she greatly enjoys experiencing life, observing and engaging with people. Combined with her own experience, her research interests mostly lie in cognitive field, such as memory and sleep. In her free time, she has a wide range of interests, from learning various languages, playing musical instruments to handicrafts, trying everything she is curious about becomes her distinctive lifestyle.'},
+        
+      ],
       UG: [
         {name: 'Nathan Fung', img: 'fung-nathan.webp', position: 'Undergraduate Thesis Student', description: 'He is interested in how people’s physiological reactions affect their social interactions. In his spare time, he likes to dive into the world of literature and write songs to yap about his life. His divergent thinking is too powerful that he cannot choose what to talk about here. '},
         {name: 'Jacky Ng', img: 'ng-jacky.webp', position: 'Undergraduate Thesis Student', description: 'He is interested in exploring the relationship between psychopathology and emotional functioning. Particularly, he hopes to understand how trauma history plays a role in the emotional dysregulation of oneself. He enjoys being outdoors, learning languages, and writing about life in his leisure time. '},
@@ -185,7 +188,6 @@ export default {
                 <p>{{person.description}}</p>
               </div>
             </div>
-<!--
             <div class="title-box">Taught Postgraduates</div>
             <div class="people-card flex-box" v-for="person in MA">
               <div class="flex-250">
@@ -197,7 +199,6 @@ export default {
                 <p>{{person.description}}</p>
               </div>
             </div>
--->
             <div class="title-box">Undergraduate Thesis Students</div>
             <div class="people-card flex-box" v-for="person in UG">
               <div class="flex-250">
