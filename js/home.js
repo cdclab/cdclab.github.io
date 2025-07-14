@@ -38,6 +38,7 @@ export default {
 						</div>
 						<div class="flex-60">
 							<splide :options="{ type: 'fade', rewind: true, speed: 2000, arrows: false, drag: false, autoplay: true, interval: 4000, pauseOnHover: false, pauseOnFocus: false, lazyLoad: 'sequential' }" aria-label="Services">
+							<splide-slide><img src="./img/home/lab-photo-2025-06.jpeg" width="636" height="358" alt=""><span class="splide-description">June 2025</span></splide-slide>	
 								<splide-slide><img src="./img/home/lab-photo-2025-05.jpeg" width="636" height="358" alt=""><span class="splide-description">May 2025</span></splide-slide>	
 								<splide-slide><img src="./img/home/lab-photo-2025-03.jpg" width="636" height="358" alt=""><span class="splide-description">Sep 2024</span></splide-slide>
 								<splide-slide><img src="./img/home/lab-photo-2024-09.jpeg" width="636" height="358" alt=""><span class="splide-description">Sep 2024</span></splide-slide>	
@@ -79,6 +80,11 @@ export default {
 						</div>
 						<div class="flex-60">
 							<splide :options="{ type: 'fade', rewind: true, speed: 2000, arrows: false, drag: false, autoplay: true, interval: 4000, pauseOnHover: false, pauseOnFocus: false, lazyLoad: 'sequential' }" aria-label="Services">
+							<splide-slide><img data-splide-lazy="./img/home/service-photo-2025-07-01.jpeg" width="636" height="358" alt=""><span class="splide-description">Jun 2025 – ESCAP Symposium (France) </span></splide-slide>
+							<splide-slide><img data-splide-lazy="./img/home/service-photo-2025-07-02.jpg" width="636" height="358" alt=""><span class="splide-description">Jun 2025 – ESCAP Symposium (France) </span></splide-slide>
+							<splide-slide><img data-splide-lazy="./img/home/service-photo-2025-07-03.jpeg" width="636" height="358" alt=""><span class="splide-description">Jun 2025 – ESCAP Symposium (France) </span></splide-slide>
+							<splide-slide><img data-splide-lazy="./img/home/service-photo-2025-07-04.jpeg" width="636" height="358" alt=""><span class="splide-description">Jun 2025 – ESCAP Symposium (France) </span></splide-slide>
+							<splide-slide><img data-splide-lazy="./img/home/service-photo-2025-07-05.jpeg" width="636" height="358" alt=""><span class="splide-description">Jun 2025 – ESCAP Symposium (France) </span></splide-slide>
 								<splide-slide><img data-splide-lazy="./img/home/service-photo-2025-06-02.jpg" width="636" height="358" alt=""><span class="splide-description">Jun 2025 – YO Workshop </span></splide-slide>
 								<splide-slide><img data-splide-lazy="./img/home/service-photo-2025-06-01.jpg" width="636" height="358" alt=""><span class="splide-description">Jun 2025 – YO Workshop </span></splide-slide>
 								<splide-slide><img data-splide-lazy="./img/home/service-photo-2025-03.jpeg" width="636" height="358" alt=""><span class="splide-description">Mar 2025 – ACA Forum </span></splide-slide>
