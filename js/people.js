@@ -8,9 +8,9 @@ export default {
       CD: {
         img: 'chiu.webp', description: 'Trained in applying experimental approaches to delineating the cognitive mechanisms of psychopathology, his clinical and research interests concern the impact of aversive interpersonal experience and stressful life events on mental health. His current research focuses on exploring the role of dysfunctional self-regulation (e.g., self-esteem, shame, and self-versus-other boundary) in stress-related disorders such as post-traumatic stress disorder, dissociative disorders, and borderline personality disorder.'
       },
-      Staff: [
-        { name: 'Peanut Wong', img: 'wong-peanut.webp', position: 'Research Assistant', description: 'She obtained her Bachelor’s Degree in Psychology in CUHK. She is interested in learning how people understand themselves. Her undergraduate thesis examined the role of representation coherence in moderating the advantages of flexible perspective switching for emotion recognition. She has a growing sloth collection at lab.', email: 'peanut.cdclab@gmail.com', tel: '3943-3507'}
-      ],
+      //Staff: [
+        //{ name: 'Peanut Wong', img: 'wong-peanut.webp', position: 'Research Assistant', description: 'She obtained her Bachelor’s Degree in Psychology in CUHK. She is interested in learning how people understand themselves. Her undergraduate thesis examined the role of representation coherence in moderating the advantages of flexible perspective switching for emotion recognition. She has a growing sloth collection at lab.', email: 'peanut.cdclab@gmail.com', tel: '3943-3507'}
+      //],
       HonStaff: [
         { name: 'Eunice Ho', img: 'ho-eunice.webp', position: 'Honorary Clinical Consultant', description: 'She is a clinical psychologist who enjoys working with children, adolescents, and their families. She is currently working with a group of children and their caregivers with adverse relational experiences. Her clinical and research interest lies in the development of trauma psychopathology and the contributive role that sociocognitive functioning plays in its formation.'},
         { name: 'Cathy Kwok', img: 'kwok-cathy.webp', position: 'Honorary Clinical Consultant', description: 'She is a clinical psychologist working in a residential care setting serving children and families with adverse childhood experiences. She is interested in understanding the developmental trajectory of trauma spectrum disorders, as well as the application and consolidation of a therapeutic approach for children that targets the dysfunctional self and other representations.'},
@@ -19,33 +19,28 @@ export default {
         { name: 'Harris Chung', img: 'chung-harris.webp', position: 'Honorary Research Consultant', description: 'He is interested in understanding the socio-cognitive process behinds human interaction. He has previously accomplished an undergraduate thesis examining the underlying implication of heart rate variability on self-esteem within a social context. Understanding how the world can be perceived in various perspectives is one of his primary curiosities. In his free time, he enjoys playing football and darts, taking film photos, and engaging in thought-provoking discussions with friends.'}
       ], 
       RPg: [
-        { name: 'Kam Hei Hui', img: 'hui-kamhei.webp', position: 'M.Phil. in Psychology ', description: 'Obtaining his Bachelor’s degree in CUHK, he is passionate in knowing how people imagine their future. He hopes to boost people’s determination and confidence to pursue their goals through update of autobiographical knowledge and biofeedback.'},
-        { name: 'Yanbin Xie', img: 'xie-yanbin.webp', position: 'Ph.D. in Psychology (Pre-candidacy)', description: 'Obtained the bachelor’s degree in Beijing Normal University, her current research concerns the issue of “love”. Her research interest lies in the intersubjectivity of self-relation and interpersonal interactions, exploring why some individuals would be fearful of being accepted or even struggle with self-criticism. She enjoys social connections and always be hooked on something special and interesting.'}
+        { name: 'Yanbin Xie', img: 'xie-yanbin.webp', position: 'Ph.D. in Psychology (Pre-candidacy)', description: 'Obtained the bachelor’s degree in Beijing Normal University, her current research concerns the issue of “love”. Her research interest lies in the intersubjectivity of self-relation and interpersonal interactions, exploring why some individuals would be fearful of being accepted or even struggle with self-criticism. She enjoys social connections and always be hooked on something special and interesting.'},
+        { name: 'Davin Yeung', img: 'member-4.webp', position: 'Ph.D. in Psychology (Pre-candidacy)', description: ''},
       ], 
       CP: [
         { name: 'Bianca Chan', img: 'chan-bianca.webp', position: 'Psy.D. in Clinical Psychology', description: 'She is a clinical psychologist working in the child & adolescent team of a psychiatric hospital. She is interested in working with adolescents with attachment difficulties, especially those with evolving borderline personality traits. She is currently studying the role of dissociation in adolescent mental health disorders. She is also a plant lover.' }, 
         { name: 'Daniel Chan', img: 'chan-daniel.webp', position: 'Psy.D. in Clinical Psychology', description: 'Working in the public sector, he provides psychological service for individuals and families in need. His research is aimed at enhancing the understanding of how adverse childhood experiences impact mental health in adulthood, with a focus on childhood trauma and self-regulation. In his free time, he enjoys all sorts of outdoor activities.' }, 
         { name: 'Diana Cheung', img: 'cheung-diana.webp', position: 'M.S.Sc. in Clinical Psychology', description: 'She received her bachelor’s and master’s degrees at the University of Surrey. She wishes to explore the interactions between childhood experiences and relationships with parents and trauma spectrum disorders in children. Her life outside of work includes trying out new hobbies and getting matcha lattes!' },
         { name: 'Agnes Lau', img: 'lau-agnes.webp', position: 'M.S.Sc. in Clinical Psychology', description: 'After completing her thesis on children’s interpretations of parental reactions to their emotions during her MA degree at CUHK, she is interested in deepening her understanding of parental interactions and childhood trauma. She wishes to explore the connection between individuals’ childhood experiences and their development. In her free time, she enjoys practising yoga and playing music.' },
-        { name: 'Francesca Leventhal', img: 'leventhal-francesca.webp', position: 'M.S.Sc. in Clinical Psychology', description: 'In broad terms, she is interested in understanding the process of personal development and how individuals shape their sense of self. Particularly, she focuses on exploring how people make sense of the world around them. Through research, she delves into children’s stories as a mean to gain insight into the development of their sense of self.  She enjoys spending time with animals, being outdoors, and indulging in a cup of coffee at a cozy cafe.' }, 
         { name: 'Dickson Wong', img: 'wong-dickson.webp', position: 'M.S.Sc. in Clinical Psychology', description: 'He obtained his Bachelor’s degree at CUHK. He is interested in exploring psychopathology related to self and others, particularly how the sense of self and experience may shape a person’s development. In his free time, he enjoys playing table tennis, cycling, and reading for leisure.' }, 
         
       ],
-      MA: [
-        { name: 'Xianwen Huang', img: 'member-3.webp', position: 'M.A. in Psychology', description: ''},
-        { name: 'Hebi Wong', img: 'wong-hebi.webp', position: 'M.A. in Psychology', description: 'Prior to her Master’s degree at CUHK, she obtained BBA in GBUS & MGMT at HKUST, followed by years of experience in the tourism industry. Her thesis investigates the internal projection of self-relation onto self-other models, and the role of emotion regulation mechanism. Her interests center on the formation of self-concept and its influence on interpersonal dynamics. She enjoys traveling, cross-cultural exchange, nature, human connection and singing.'},
-        { name: 'Jiayi Wu', img: 'wu-jiayi.webp', position: 'M.A. in Psychology', description: 'Her motivation to learning psychology stems more from a deep fascination with human nature itself and she greatly enjoys experiencing life, observing and engaging with people. Combined with her own experience, her research interests mostly lie in cognitive field, such as memory and sleep. In her free time, she has a wide range of interests, from learning various languages, playing musical instruments to handicrafts, trying everything she is curious about becomes her distinctive lifestyle.'},
-        
-      ],
+      //MA: [
+        //{ name: 'Hebi Wong', img: 'wong-hebi.webp', position: 'M.A. in Psychology', description: 'Prior to her Master’s degree at CUHK, she obtained BBA in GBUS & MGMT at HKUST, followed by years of experience in the tourism industry. Her thesis investigates the internal projection of self-relation onto self-other models, and the role of emotion regulation mechanism. Her interests center on the formation of self-concept and its influence on interpersonal dynamics. She enjoys traveling, cross-cultural exchange, nature, human connection and singing.'},
+      //],
       UG: [
         {name: 'Nathan Fung', img: 'fung-nathan.webp', position: 'Undergraduate Thesis Student', description: 'He is interested in how people’s physiological reactions affect their social interactions. In his spare time, he likes to dive into the world of literature and write songs to yap about his life. His divergent thinking is too powerful that he cannot choose what to talk about here. '},
-        {name: 'Jacky Ng', img: 'ng-jacky.webp', position: 'Undergraduate Thesis Student', description: 'He is interested in exploring the relationship between psychopathology and emotional functioning. Particularly, he hopes to understand how trauma history plays a role in the emotional dysregulation of oneself. He enjoys being outdoors, learning languages, and writing about life in his leisure time. '},
-        {name: 'Jamie Wong', img: 'wong-jamie.webp', position: 'Undergraduate Thesis Student', description: 'As a children lover, she is deeply interested in their cognitive development and how relational experiences shape their personalities. One of her ultimate goals is to gain a deeper understanding of the world through diverse perspectives. She has a love for all things related to art and music and eagerly embraces new experiences while seeking out intriguing adventures.'},
         {name: 'Seline Yeung', img: 'yeung-seline.webp', position: 'Undergraduate Thesis Student', description: 'She is currently in her final year of undergraduate studies at CUHK, where her thesis explores the influence of trauma history on mentalization. In addition to her academic pursuits, she aspires to be a foodie and a traveler, always eager to explore new cultures and cuisines.'},
       ], 
       Alumni: [{ 
         degree: 'M.Phil./ Ph.D. in Psychology',
         years: [
+          { year: '2025', people: 'M.Phil. : Kamhei Hui'},
           { year: '2023', people: 'Ph.D. : Yimei Zhang ; M.Phil. : Celia Siu'}, 
           { year: '2022', people: 'M.Phil. : Frankie Mak' }, 
           { year: '2021', people: 'M.Phil. : Alfred Lo' }, 
@@ -53,6 +48,7 @@ export default {
         ]}, { 
         degree: 'M.S.Sc. in Clinical Psychology',
         years: [
+          { year: '2025', people: 'Francesca Leventhal'},
           { year: '2024', people: 'Rachel Chong, Raymond Ho, Terry Lau, Kristin Ng, Tracy Tso, Charmaine Tsoi'}, 
           { year: '2023', people: 'Jessica Chan, Celia Ho, Florence Huang' }, 
           { year: '2022', people: 'Cosy Cheung, Toby Jong, Jeff Kei, Janice Li, Jenny Ng, Kristine Yeung' }, 
@@ -65,6 +61,7 @@ export default {
         ]}, { 
         degree: 'M.A. in Psychology',
         years: [
+          { year: '2025', people: 'Xianwen Huang, Hebi Wong, Jiayi Wu' },
           { year: '2023', people: 'Emily Chan, Karly Chuang, Christine Chow, Emily Chung, Emma Lau, Vickie Lee, Wayne Lee, Elaine To' }, 
           { year: '2022', people: 'Rachel Chan, Max Chau, Ching Ying Lee, Xiaojing Wu' }, 
           { year: '2021', people: 'Constance Ho, Jasmine Jim, Shirley So' }, 
@@ -73,6 +70,7 @@ export default {
         ]}, { 
         degree: 'B.S.Sc. in Psychology',
         years: [
+          { year: '2025', people: 'Jacky Ng, Jamie Wong' },
           { year: '2024', people: 'Kyle Law, Davin Yeung' },
           { year: '2023', people: 'Hazel Lee, Isla Wong, Peanut Wong' }, 
           { year: '2022', people: 'Harris Chung, Raymond Ho, Joshua Yiu' }, 
@@ -136,7 +134,8 @@ export default {
           </section>
 
           <section id="members" class="wrapper-horizontal">
-            <div class="title-box">Staff</div>
+<!--  
+          <div class="title-box">Staff</div>
             <div class="people-card flex-box" v-for="person in Staff">
               <div class="flex-250">
                 <img :src="imgpath + person.img" class="members-img" width="210" height="210" loading="lazy">
@@ -152,7 +151,7 @@ export default {
                 </div>
               </div>
             </div>
-
+-->
             <div class="title-box">Honorary Staff</div>
             <div class="people-card flex-box" v-for="person in HonStaff">
               <div class="flex-250">
@@ -188,6 +187,7 @@ export default {
                 <p>{{person.description}}</p>
               </div>
             </div>
+<!--
             <div class="title-box">Taught Postgraduates</div>
             <div class="people-card flex-box" v-for="person in MA">
               <div class="flex-250">
@@ -199,6 +199,7 @@ export default {
                 <p>{{person.description}}</p>
               </div>
             </div>
+-->
             <div class="title-box">Undergraduate Thesis Students</div>
             <div class="people-card flex-box" v-for="person in UG">
               <div class="flex-250">
