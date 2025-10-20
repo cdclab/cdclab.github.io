@@ -20,7 +20,7 @@ export default {
       ], 
       RPg: [
         { name: 'Yanbin Xie', img: 'xie-yanbin.webp', position: 'Ph.D. in Psychology (Pre-candidacy)', description: 'Obtained the bachelor’s degree in Beijing Normal University, her current research concerns the issue of “love”. Her research interest lies in the intersubjectivity of self-relation and interpersonal interactions, exploring why some individuals would be fearful of being accepted or even struggle with self-criticism. She enjoys social connections and always be hooked on something special and interesting.'},
-        { name: 'Davin Yeung', img: 'member-4.webp', position: 'Ph.D. in Psychology (Pre-candidacy)', description: ''},
+        { name: 'Davin Yeung', img: 'yeung-davin.jpg', position: 'Ph.D. in Psychology (Pre-candidacy)', description: 'He is intrigued by how intra-personal dynamics shape inter-personal relation, particularly how self-negation mirrors perceived judgment in social settings. In this leisure time, he enjoys strolling through the city and listening to music.'},
       ], 
       CP: [
         { name: 'Bianca Chan', img: 'chan-bianca.webp', position: 'Psy.D. in Clinical Psychology', description: 'She is a clinical psychologist working in the child & adolescent team of a psychiatric hospital. She is interested in working with adolescents with attachment difficulties, especially those with evolving borderline personality traits. She is currently studying the role of dissociation in adolescent mental health disorders. She is also a plant lover.' }, 
@@ -34,7 +34,8 @@ export default {
         //{ name: 'Hebi Wong', img: 'wong-hebi.webp', position: 'M.A. in Psychology', description: 'Prior to her Master’s degree at CUHK, she obtained BBA in GBUS & MGMT at HKUST, followed by years of experience in the tourism industry. Her thesis investigates the internal projection of self-relation onto self-other models, and the role of emotion regulation mechanism. Her interests center on the formation of self-concept and its influence on interpersonal dynamics. She enjoys traveling, cross-cultural exchange, nature, human connection and singing.'},
       //],
       UG: [
-        {name: 'Nathan Fung', img: 'fung-nathan.webp', position: 'Undergraduate Thesis Student', description: 'He is interested in how people’s physiological reactions affect their social interactions. In his spare time, he likes to dive into the world of literature and write songs to yap about his life. His divergent thinking is too powerful that he cannot choose what to talk about here. '},
+        {name: 'Nathan Fung', img: 'fung-nathan.webp', position: 'Undergraduate Thesis Student', description: 'He is interested in how people’s physiological reactions affect their social interactions. In his spare time, he likes to dive into the world of literature and write songs to yap about his life. His divergent thinking is too powerful that he cannot choose what to talk about here.'},
+        {name: 'Belle Li', img: 'li-belle.jpg', position: 'Undergraduate Thesis Student', description: 'She is interested in the role of mentalization in influencing individuals’ interpersonal relationships. Her mind is occupied 25% with food, 25% with the next travel destination, 25% with quirky thoughts, and the remaining 25% is yet to be explored.'},
         {name: 'Seline Yeung', img: 'yeung-seline.webp', position: 'Undergraduate Thesis Student', description: 'She is currently in her final year of undergraduate studies at CUHK, where her thesis explores the influence of trauma history on mentalization. In addition to her academic pursuits, she aspires to be a foodie and a traveler, always eager to explore new cultures and cuisines.'},
       ], 
       Alumni: [{ 
