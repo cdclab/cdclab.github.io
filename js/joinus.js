@@ -31,7 +31,8 @@ export default {
               <div class="flex-60">
                 <h2>Participants</h2>
                 <p>We are now recruiting participants for the following studies:</p>
-                <a class="joinus-recruit" href="https://qualtricsxm76cpk6frh.qualtrics.com/jfe/form/SV_9SGTbXVxrKv1P5c" target="_blank">💞 自我關懷對話實驗 Magic Chair Experiment 💞 （歡迎18歲以上，認識繁體中文人士報名參加！）</a>
+                <a class="joinus-recruit" href="https://esurvey.psy.cuhk.edu.hk/jfe/form/SV_eJcE6LGxl0xhfW6" target="_blank">🪑👀 自我關懷對話實驗 （僅招募男士）</a>
+                <a class="joinus-recruit" href="https://cuhk.qualtrics.com/jfe/form/SV_eDNm9u2HOUkR302" target="_blank"> 🫣 社交焦慮短期訓練 （歡迎18嵗以上，廣東話使用者）</a>
               </div>
 
               <div class="flex-40">
