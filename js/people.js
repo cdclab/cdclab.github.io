@@ -72,7 +72,7 @@ export default {
         ]}, { 
         degree: 'B.S.Sc. in Psychology',
         years: [
-          { year: '2026', people: 'Nathan Fung, Belle Li, Seline Yeung' }
+          { year: '2026', people: 'Nathan Fung, Belle Li, Seline Yeung' },
           { year: '2025', people: 'Jacky Ng, Jamie Wong' },
           { year: '2024', people: 'Kyle Law, Davin Yeung' },
           { year: '2023', people: 'Hazel Lee, Isla Wong, Peanut Wong' }, 
