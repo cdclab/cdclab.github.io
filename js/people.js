@@ -21,13 +21,12 @@ export default {
       RPg: [
         { name: 'Yanbin Xie', img: 'xie-yanbin.webp', position: 'Ph.D. in Psychology (Post-candidacy)', description: 'Her current research concerns the issue of “love”. Her interest lies in the intersubjectivity of self-relation and interpersonal interactions, exploring why some individuals would be fearful of being accepted or even struggle with self-criticism. She enjoys social connections and always be hooked on something special and interesting.'},
         { name: 'Davin Yeung', img: 'yeung-davin.jpg', position: 'Ph.D. in Psychology (Pre-candidacy)', description: 'He is intrigued by how intra-personal dynamics shape inter-personal relation, particularly how self-negation mirrors perceived judgment in social settings. In his leisure time, he enjoys strolling through the city and listening to music.'},
+        { name: 'Shuxuan Chi', img: 'chi-shuxuan.jpg', position: 'Ph.D. in Psychology (Pre-candidacy)', description: 'She is interested in how individuals make sense of significant life experiences and integrate them into their evolving sense of self, particularly through the dynamic interply between autobiograohical narratives and relationships with others. Outside of research, She enjoys nature through travel and photography. She is also a huge dog lover who is still waiting for a pup of her own.'},
+
       ], 
       CP: [
         { name: 'Bianca Chan', img: 'chan-bianca.webp', position: 'Psy.D. in Clinical Psychology', description: 'She is a clinical psychologist working in the child & adolescent team of a psychiatric hospital. She is interested in working with adolescents with attachment difficulties, especially those with evolving borderline personality traits. She is currently studying the role of dissociation in adolescent mental health disorders. She is also a plant lover.' }, 
         { name: 'Daniel Chan', img: 'chan-daniel.webp', position: 'Psy.D. in Clinical Psychology', description: 'Working in the public sector, he provides psychological service for individuals and families in need. His research is aimed at enhancing the understanding of how adverse childhood experiences impact mental health in adulthood, with a focus on childhood trauma and self-regulation. In his free time, he enjoys all sorts of outdoor activities.' }, 
-        { name: 'Diana Cheung', img: 'cheung-diana.webp', position: 'M.S.Sc. in Clinical Psychology', description: 'She received her bachelor’s and master’s degrees at the University of Surrey. She wishes to explore the interactions between childhood experiences and relationships with parents and trauma spectrum disorders in children. Her life outside of work includes trying out new hobbies and getting matcha lattes!' },
-        { name: 'Agnes Lau', img: 'lau-agnes.webp', position: 'M.S.Sc. in Clinical Psychology', description: 'After completing her thesis on children’s interpretations of parental reactions to their emotions during her MA degree at CUHK, she is interested in deepening her understanding of parental interactions and childhood trauma. She wishes to explore the connection between individuals’ childhood experiences and their development. In her free time, she enjoys practising yoga and playing music.' },
-        { name: 'Dickson Wong', img: 'wong-dickson.webp', position: 'M.S.Sc. in Clinical Psychology', description: 'He obtained his Bachelor’s degree at CUHK. He is interested in exploring psychopathology related to self and others, particularly how the sense of self and experience may shape a person’s development. In his free time, he enjoys playing table tennis, cycling, and reading for leisure.' }, 
         { name: 'Yvonne Chan', img: 'chan-yvonne.jpg', position: 'M.S.Sc. in Clinical Psychology', description: 'She returns to the field of psychology after years working in hospital administration. She is curious about how childhood and parenting shape a person’s socio-emotional development, self-identity, and relationships with the self and with others. Outside of studies, she’s \'hyperactive\', probably chasing her adorable daughter, dancing, hiking, running, singing, camping...' },
         { name: 'Koni Lau', img: 'lau-koni.jpg', position: 'M.S.Sc. in Clinical Psychology', description: 'She is interested in exploring the intersections of existential crisis, trauma and self-other relationships. In her personal time, she enjoys connecting with friends and is a passionate animal lover.' },
         { name: 'Sandy Leung', img: 'leung-sandy.jpg', position: 'M.S.Sc. in Clinical Psychology', description: 'She holds a Master of Arts in Psychology from CUHK. Previously, she worked in various roles in the finance sector. Her clinical interests span trauma and geriatric mental health, with a particular focus on how adverse childhood experiences influence individual development across the lifespan. Sandy enjoys Chinese and English calligraphy and is passionate about exploring world cultures and histories.' },
@@ -37,10 +36,7 @@ export default {
         //{ name: 'Hebi Wong', img: 'wong-hebi.webp', position: 'M.A. in Psychology', description: 'Prior to her Master’s degree at CUHK, she obtained BBA in GBUS & MGMT at HKUST, followed by years of experience in the tourism industry. Her thesis investigates the internal projection of self-relation onto self-other models, and the role of emotion regulation mechanism. Her interests center on the formation of self-concept and its influence on interpersonal dynamics. She enjoys traveling, cross-cultural exchange, nature, human connection and singing.'},
       //],
       UG: [
-        {name: 'Nathan Fung', img: 'fung-nathan.webp', position: 'Undergraduate Thesis Student', description: 'He is interested in how people’s physiological reactions affect their social interactions. In his spare time, he likes to dive into the world of literature and write songs to yap about his life. His divergent thinking is too powerful that he cannot choose what to talk about here.'},
-        {name: 'Belle Li', img: 'li-belle.jpg', position: 'Undergraduate Thesis Student', description: 'She is interested in the role of mentalization in influencing individuals’ interpersonal relationships. Her mind is occupied 25% with food, 25% with the next travel destination, 25% with quirky thoughts, and the remaining 25% is yet to be explored.'},
-        {name: 'Seline Yeung', img: 'yeung-seline.webp', position: 'Undergraduate Thesis Student', description: 'She is currently in her final year of undergraduate studies at CUHK, where her thesis explores the influence of trauma history on mentalization. In addition to her academic pursuits, she aspires to be a foodie and a traveler, always eager to explore new cultures and cuisines.'},
-      ], 
+        {name: 'Andy Chu', img: 'chu-andy.jpg', position: 'Undergraduate Thesis Student', description: 'He is interested in how patterns of interpersonal interactions are reflected by the linguistic features. Outside of studies, he always listens to cantopop and loves spending his weekends at concerts.'},     ], 
       Alumni: [{ 
         degree: 'M.Phil./ Ph.D. in Psychology',
         years: [
@@ -52,6 +48,7 @@ export default {
         ]}, { 
         degree: 'M.S.Sc. in Clinical Psychology',
         years: [
+          { year: '2026', people: 'Diana Cheung, Agnes Lau, Dickson Wong' },
           { year: '2025', people: 'Francesca Leventhal'},
           { year: '2024', people: 'Rachel Chong, Raymond Ho, Terry Lau, Kristin Ng, Tracy Tso, Charmaine Tsoi'}, 
           { year: '2023', people: 'Jessica Chan, Celia Ho, Florence Huang' }, 
@@ -65,6 +62,7 @@ export default {
         ]}, { 
         degree: 'M.A. in Psychology',
         years: [
+          { year: '2026', people: 'Bobo Au-Yeung, Nina Cao' },
           { year: '2025', people: 'Xianwen Huang, Hebi Wong, Jiayi Wu' },
           { year: '2023', people: 'Emily Chan, Karly Chuang, Christine Chow, Emily Chung, Emma Lau, Vickie Lee, Wayne Lee, Elaine To' }, 
           { year: '2022', people: 'Rachel Chan, Max Chau, Ching Ying Lee, Xiaojing Wu' }, 
@@ -74,6 +72,7 @@ export default {
         ]}, { 
         degree: 'B.S.Sc. in Psychology',
         years: [
+          { year: '2026', people: 'Nathan Fung, Belle Li, Seline Yeung' }
           { year: '2025', people: 'Jacky Ng, Jamie Wong' },
           { year: '2024', people: 'Kyle Law, Davin Yeung' },
           { year: '2023', people: 'Hazel Lee, Isla Wong, Peanut Wong' }, 
