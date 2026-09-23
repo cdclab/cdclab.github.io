@@ -36,8 +36,9 @@ export default {
         //{ name: 'Hebi Wong', img: 'wong-hebi.webp', position: 'M.A. in Psychology', description: 'Prior to her Master’s degree at CUHK, she obtained BBA in GBUS & MGMT at HKUST, followed by years of experience in the tourism industry. Her thesis investigates the internal projection of self-relation onto self-other models, and the role of emotion regulation mechanism. Her interests center on the formation of self-concept and its influence on interpersonal dynamics. She enjoys traveling, cross-cultural exchange, nature, human connection and singing.'},
       //],
       UG: [
-        {name: 'Andy Chu', img: 'chu-andy.jpg', position: 'Undergraduate Thesis Student', description: 'He is interested in how patterns of interpersonal interactions are reflected by the linguistic features. Outside of studies, he always listens to cantopop and loves spending his weekends at concerts.'},     ], 
-      Alumni: [{ 
+        {name: 'Andy Chu', img: 'chu-andy.jpg', position: 'Undergraduate Thesis Student', description: 'He is interested in how patterns of interpersonal interactions are reflected by the linguistic features. Outside of studies, he always listens to cantopop and loves spending his weekends at concerts.'}    
+      ],
+        Alumni: [{ 
         degree: 'M.Phil./ Ph.D. in Psychology',
         years: [
           { year: '2025', people: 'M.Phil. : Kamhei Hui'},
