@@ -194,7 +194,7 @@ export default {
                 <p>{{person.description}}</p>
               </div>
             </div>
-<!--
+
             <div class="title-box">Taught Postgraduates</div>
             <div class="people-card flex-box" v-for="person in MA">
               <div class="flex-250">
@@ -206,7 +206,7 @@ export default {
                 <p>{{person.description}}</p>
               </div>
             </div>
--->
+
             <div class="title-box">Undergraduate Thesis Students</div>
             <div class="people-card flex-box" v-for="person in UG">
               <div class="flex-250">
